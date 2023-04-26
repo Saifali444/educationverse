@@ -1,0 +1,35 @@
+section_id            AS  $Section_id
+stream_id             AS  $Education_stream
+institute_id 	      AS  $institute_id
+program_id            AS  $program_id
+component_id          AS  $Components_id
+------------------------------------------
+subject_id	      AS  $Subject_id
+section_name          AS  $Section_name
+teacher_assign        AS  $Teacher_assign
+notes                 AS  $Notes
+assignment            AS  $Assignment
+model_paper           AS  $Model_paper
+past_paper            AS  $Past_paper
+midterm_paper         AS  $Midterm_paper
+final_paper           AS  $Final_paper
+videos                AS  $Videos
+quiz                  AS  $Quiz
+lecture_start_time    AS  $Lecture_start_time
+lecture_end_time      AS  $Lecture_end_time
+lecture_day_MONDAY    AS  $Lecture_day_MONDAY
+lecture_day_TUESDAY   AS  $Lecture_day_TUESDAY
+lecture_day_WEDNESDAY AS  $Lecture_day_WEDNESDAY
+lecture_day_THURSDAY  AS  $Lecture_day_THURSDAY
+lecture_day_FRIDAY    AS  $Lecture_day_FRIDAY
+lecture_day_SATURDAY  AS  $Lecture_day_SATURDAY
+lecture_day_SUNDAY    AS  $Lecture_day_SUNDAY
+teacher_asst_1        AS  $Teacher_asst_1
+teacher_asst_2        AS  $Teacher_asst_2
+create_date
+update_date
+
+
+
+
+INSERT INTO `section`(`stream_id`, `institute_id`, `program_id`, `component_id`, `subject_id`, `section_name`, `teacher_assign`, `notes`, `assignment`, `model_paper`, `past_paper`, `midterm_paper`, `final_paper`, `videos`, `quiz`, `lecture_start_time`, `lecture_end_time`, `lecture_day_MONDAY`, `lecture_day_TUESDAY`, `lecture_day_WEDNESDAY`, `lecture_day_THURSDAY`, `lecture_day_FRIDAY`, `lecture_day_SATURDAY`, `lecture_day_SUNDAY`, `teacher_asst_1`, `teacher_asst_2`, `create_date`, `update_date`) VALUES ([value-1],[value-2],[value-3],[value-4],[value-5],[value-6],[value-7],[value-8],[value-9],[value-10],[value-11],[value-12],[value-13],[value-14],[value-15],[value-16],[value-17],[value-18],[value-19],[value-20],[value-21],[value-22],[value-23],[value-24],[value-25],[value-26],[value-27],[value-28],[value-29])

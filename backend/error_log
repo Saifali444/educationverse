@@ -1,0 +1,249 @@
+[12-Apr-2023 04:38:04 America/Chicago] PHP Warning:  Undefined array key "Password" in /home1/educationve/public_html/backend/adduser.php on line 14
+[12-Apr-2023 04:38:04 America/Chicago] PHP Warning:  Undefined array key "stream" in /home1/educationve/public_html/backend/adduser.php on line 16
+[12-Apr-2023 04:59:13 America/Chicago] PHP Warning:  Undefined array key "Password" in /home1/educationve/public_html/backend/adduser.php on line 15
+[12-Apr-2023 04:59:13 America/Chicago] PHP Warning:  Undefined array key "stream" in /home1/educationve/public_html/backend/adduser.php on line 17
+[12-Apr-2023 04:59:13 America/Chicago] PHP Fatal error:  Uncaught mysqli_sql_exception: Duplicate entry '0' for key 'PRIMARY' in /home1/educationve/public_html/backend/adduser.php:25
+Stack trace:
+#0 /home1/educationve/public_html/backend/adduser.php(25): mysqli_query(Object(mysqli), 'INSERT INTO `us...')
+#1 {main}
+  thrown in /home1/educationve/public_html/backend/adduser.php on line 25
+[12-Apr-2023 04:59:19 America/Chicago] PHP Warning:  Undefined array key "Password" in /home1/educationve/public_html/backend/adduser.php on line 15
+[12-Apr-2023 04:59:19 America/Chicago] PHP Warning:  Undefined array key "stream" in /home1/educationve/public_html/backend/adduser.php on line 17
+[12-Apr-2023 04:59:19 America/Chicago] PHP Fatal error:  Uncaught mysqli_sql_exception: Duplicate entry '0' for key 'PRIMARY' in /home1/educationve/public_html/backend/adduser.php:25
+Stack trace:
+#0 /home1/educationve/public_html/backend/adduser.php(25): mysqli_query(Object(mysqli), 'INSERT INTO `us...')
+#1 {main}
+  thrown in /home1/educationve/public_html/backend/adduser.php on line 25
+[12-Apr-2023 05:00:01 America/Chicago] PHP Warning:  Undefined array key "Gender" in /home1/educationve/public_html/backend/adduser.php on line 8
+[12-Apr-2023 05:00:01 America/Chicago] PHP Warning:  Undefined array key "Password" in /home1/educationve/public_html/backend/adduser.php on line 15
+[12-Apr-2023 05:00:01 America/Chicago] PHP Warning:  Undefined array key "stream" in /home1/educationve/public_html/backend/adduser.php on line 17
+[12-Apr-2023 05:00:01 America/Chicago] PHP Fatal error:  Uncaught mysqli_sql_exception: Duplicate entry '0' for key 'PRIMARY' in /home1/educationve/public_html/backend/adduser.php:25
+Stack trace:
+#0 /home1/educationve/public_html/backend/adduser.php(25): mysqli_query(Object(mysqli), 'INSERT INTO `us...')
+#1 {main}
+  thrown in /home1/educationve/public_html/backend/adduser.php on line 25
+[12-Apr-2023 05:01:26 America/Chicago] PHP Warning:  Undefined array key "Gender" in /home1/educationve/public_html/backend/adduser.php on line 8
+[12-Apr-2023 05:01:26 America/Chicago] PHP Warning:  Undefined array key "Password" in /home1/educationve/public_html/backend/adduser.php on line 15
+[12-Apr-2023 05:01:26 America/Chicago] PHP Warning:  Undefined array key "stream" in /home1/educationve/public_html/backend/adduser.php on line 17
+[12-Apr-2023 05:02:20 America/Chicago] PHP Warning:  Undefined array key "Gender" in /home1/educationve/public_html/backend/adduser.php on line 8
+[12-Apr-2023 05:02:20 America/Chicago] PHP Warning:  Undefined array key "Password" in /home1/educationve/public_html/backend/adduser.php on line 15
+[12-Apr-2023 05:02:20 America/Chicago] PHP Warning:  Undefined array key "stream" in /home1/educationve/public_html/backend/adduser.php on line 17
+[12-Apr-2023 05:13:18 America/Chicago] PHP Warning:  Undefined array key "Full_Name" in /home1/educationve/public_html/backend/adduser.php on line 6
+[12-Apr-2023 05:13:18 America/Chicago] PHP Warning:  Undefined array key "Father_Name" in /home1/educationve/public_html/backend/adduser.php on line 7
+[12-Apr-2023 05:13:18 America/Chicago] PHP Warning:  Undefined array key "Gender" in /home1/educationve/public_html/backend/adduser.php on line 8
+[12-Apr-2023 05:13:18 America/Chicago] PHP Warning:  Undefined array key "date_of_birth" in /home1/educationve/public_html/backend/adduser.php on line 9
+[12-Apr-2023 05:13:18 America/Chicago] PHP Warning:  Undefined array key "Religion" in /home1/educationve/public_html/backend/adduser.php on line 10
+[12-Apr-2023 05:13:18 America/Chicago] PHP Warning:  Undefined array key "Marital_Status" in /home1/educationve/public_html/backend/adduser.php on line 11
+[12-Apr-2023 05:13:18 America/Chicago] PHP Warning:  Undefined array key "Blood_Group" in /home1/educationve/public_html/backend/adduser.php on line 12
+[12-Apr-2023 05:13:18 America/Chicago] PHP Warning:  Undefined array key "User_Name" in /home1/educationve/public_html/backend/adduser.php on line 13
+[12-Apr-2023 05:13:18 America/Chicago] PHP Warning:  Undefined array key "User_Email" in /home1/educationve/public_html/backend/adduser.php on line 14
+[12-Apr-2023 05:13:18 America/Chicago] PHP Warning:  Undefined array key "Password" in /home1/educationve/public_html/backend/adduser.php on line 15
+[12-Apr-2023 05:13:18 America/Chicago] PHP Warning:  Undefined array key "User_Role" in /home1/educationve/public_html/backend/adduser.php on line 16
+[12-Apr-2023 05:13:18 America/Chicago] PHP Warning:  Undefined array key "stream" in /home1/educationve/public_html/backend/adduser.php on line 17
+[12-Apr-2023 05:13:18 America/Chicago] PHP Warning:  Undefined array key "mobile_number" in /home1/educationve/public_html/backend/adduser.php on line 19
+[12-Apr-2023 05:13:18 America/Chicago] PHP Warning:  Undefined array key "landline" in /home1/educationve/public_html/backend/adduser.php on line 20
+[12-Apr-2023 05:13:18 America/Chicago] PHP Warning:  Undefined array key "cnic" in /home1/educationve/public_html/backend/adduser.php on line 21
+[12-Apr-2023 05:13:18 America/Chicago] PHP Warning:  Undefined array key "address" in /home1/educationve/public_html/backend/adduser.php on line 22
+[12-Apr-2023 06:20:31 America/Chicago] PHP Warning:  Undefined array key "Password" in /home1/educationve/public_html/backend/adduser.php on line 16
+[12-Apr-2023 06:20:31 America/Chicago] PHP Warning:  Undefined array key "stream" in /home1/educationve/public_html/backend/adduser.php on line 18
+[13-Apr-2023 03:34:26 America/Chicago] PHP Warning:  Undefined array key "Password" in /home1/educationve/public_html/backend/adduser.php on line 16
+[13-Apr-2023 03:34:26 America/Chicago] PHP Warning:  Undefined array key "stream" in /home1/educationve/public_html/backend/adduser.php on line 18
+[13-Apr-2023 03:44:43 America/Chicago] PHP Warning:  Undefined array key "Password" in /home1/educationve/public_html/backend/adduser.php on line 16
+[13-Apr-2023 03:44:43 America/Chicago] PHP Warning:  Undefined array key "stream" in /home1/educationve/public_html/backend/adduser.php on line 18
+[14-Apr-2023 06:34:33 America/Chicago] PHP Warning:  Undefined array key "Password" in /home1/educationve/public_html/backend/adduser.php on line 16
+[14-Apr-2023 06:34:33 America/Chicago] PHP Warning:  Undefined array key "stream" in /home1/educationve/public_html/backend/adduser.php on line 18
+[14-Apr-2023 06:35:20 America/Chicago] PHP Warning:  Undefined array key "stream" in /home1/educationve/public_html/backend/adduser.php on line 18
+[14-Apr-2023 06:35:58 America/Chicago] PHP Warning:  Undefined array key "Full_Name" in /home1/educationve/public_html/backend/adduser.php on line 7
+[14-Apr-2023 06:35:58 America/Chicago] PHP Warning:  Undefined array key "Father_Name" in /home1/educationve/public_html/backend/adduser.php on line 8
+[14-Apr-2023 06:35:58 America/Chicago] PHP Warning:  Undefined array key "Gender" in /home1/educationve/public_html/backend/adduser.php on line 9
+[14-Apr-2023 06:35:58 America/Chicago] PHP Warning:  Undefined array key "date_of_birth" in /home1/educationve/public_html/backend/adduser.php on line 10
+[14-Apr-2023 06:35:58 America/Chicago] PHP Warning:  Undefined array key "Religion" in /home1/educationve/public_html/backend/adduser.php on line 11
+[14-Apr-2023 06:35:58 America/Chicago] PHP Warning:  Undefined array key "Marital_Status" in /home1/educationve/public_html/backend/adduser.php on line 12
+[14-Apr-2023 06:35:58 America/Chicago] PHP Warning:  Undefined array key "Blood_Group" in /home1/educationve/public_html/backend/adduser.php on line 13
+[14-Apr-2023 06:35:58 America/Chicago] PHP Warning:  Undefined array key "User_Name" in /home1/educationve/public_html/backend/adduser.php on line 14
+[14-Apr-2023 06:35:58 America/Chicago] PHP Warning:  Undefined array key "User_Email" in /home1/educationve/public_html/backend/adduser.php on line 15
+[14-Apr-2023 06:35:58 America/Chicago] PHP Warning:  Undefined array key "password" in /home1/educationve/public_html/backend/adduser.php on line 16
+[14-Apr-2023 06:35:58 America/Chicago] PHP Warning:  Undefined array key "User_Role" in /home1/educationve/public_html/backend/adduser.php on line 17
+[14-Apr-2023 06:35:58 America/Chicago] PHP Warning:  Undefined array key "stream" in /home1/educationve/public_html/backend/adduser.php on line 18
+[14-Apr-2023 06:35:58 America/Chicago] PHP Warning:  Undefined array key "mobile_number" in /home1/educationve/public_html/backend/adduser.php on line 20
+[14-Apr-2023 06:35:58 America/Chicago] PHP Warning:  Undefined array key "landline" in /home1/educationve/public_html/backend/adduser.php on line 21
+[14-Apr-2023 06:35:58 America/Chicago] PHP Warning:  Undefined array key "cnic" in /home1/educationve/public_html/backend/adduser.php on line 22
+[14-Apr-2023 06:35:58 America/Chicago] PHP Warning:  Undefined array key "address" in /home1/educationve/public_html/backend/adduser.php on line 23
+[14-Apr-2023 06:38:36 America/Chicago] PHP Warning:  Undefined array key "institute_name" in /home1/educationve/public_html/backend/add_institute.php on line 6
+[14-Apr-2023 06:38:36 America/Chicago] PHP Warning:  Undefined array key "stream_id" in /home1/educationve/public_html/backend/add_institute.php on line 7
+[14-Apr-2023 06:42:44 America/Chicago] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home1/educationve/public_html/backend/config.php:15) in /home1/educationve/public_html/backend/add_institute.php on line 17
+[14-Apr-2023 06:43:16 America/Chicago] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home1/educationve/public_html/backend/config.php:15) in /home1/educationve/public_html/backend/add_institute.php on line 17
+[14-Apr-2023 06:45:08 America/Chicago] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home1/educationve/public_html/backend/config.php:15) in /home1/educationve/public_html/backend/add_institute.php on line 17
+[14-Apr-2023 06:46:27 America/Chicago] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home1/educationve/public_html/backend/config.php:15) in /home1/educationve/public_html/backend/add_institute.php on line 18
+[14-Apr-2023 06:46:31 America/Chicago] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home1/educationve/public_html/backend/config.php:15) in /home1/educationve/public_html/backend/add_institute.php on line 18
+[14-Apr-2023 06:46:44 America/Chicago] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home1/educationve/public_html/backend/config.php:15) in /home1/educationve/public_html/backend/add_institute.php on line 18
+[14-Apr-2023 06:47:08 America/Chicago] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home1/educationve/public_html/backend/config.php:15) in /home1/educationve/public_html/backend/add_institute.php on line 18
+[14-Apr-2023 06:47:11 America/Chicago] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home1/educationve/public_html/backend/config.php:15) in /home1/educationve/public_html/backend/add_institute.php on line 18
+[14-Apr-2023 06:47:30 America/Chicago] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home1/educationve/public_html/backend/config.php:15) in /home1/educationve/public_html/backend/add_institute.php on line 18
+[14-Apr-2023 06:49:01 America/Chicago] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home1/educationve/public_html/backend/config.php:15) in /home1/educationve/public_html/backend/add_institute.php on line 18
+[14-Apr-2023 07:24:50 America/Chicago] PHP Warning:  Undefined array key "stream" in /home1/educationve/public_html/backend/adduser.php on line 18
+[14-Apr-2023 07:25:52 America/Chicago] PHP Warning:  Undefined array key "stream" in /home1/educationve/public_html/backend/adduser.php on line 18
+[14-Apr-2023 07:25:52 America/Chicago] PHP Fatal error:  Uncaught mysqli_sql_exception: Duplicate entry 'saifalichohan990@gmail.com' for key 'user_email' in /home1/educationve/public_html/backend/adduser.php:29
+Stack trace:
+#0 /home1/educationve/public_html/backend/adduser.php(29): mysqli_query(Object(mysqli), 'INSERT INTO `us...')
+#1 {main}
+  thrown in /home1/educationve/public_html/backend/adduser.php on line 29
+[14-Apr-2023 07:25:56 America/Chicago] PHP Warning:  Undefined array key "stream" in /home1/educationve/public_html/backend/adduser.php on line 18
+[14-Apr-2023 07:25:56 America/Chicago] PHP Fatal error:  Uncaught mysqli_sql_exception: Duplicate entry 'saifalichohan990@gmail.com' for key 'user_email' in /home1/educationve/public_html/backend/adduser.php:29
+Stack trace:
+#0 /home1/educationve/public_html/backend/adduser.php(29): mysqli_query(Object(mysqli), 'INSERT INTO `us...')
+#1 {main}
+  thrown in /home1/educationve/public_html/backend/adduser.php on line 29
+[14-Apr-2023 07:27:15 America/Chicago] PHP Warning:  Undefined array key "stream" in /home1/educationve/public_html/backend/adduser.php on line 18
+[14-Apr-2023 07:39:21 America/Chicago] PHP Warning:  Undefined array key "stream" in /home1/educationve/public_html/backend/adduser.php on line 18
+[14-Apr-2023 07:39:21 America/Chicago] PHP Fatal error:  Uncaught mysqli_sql_exception: Cannot add or update a child row: a foreign key constraint fails (`educatio_verse`.`user`, CONSTRAINT `jkdgkjdaf2342534` FOREIGN KEY (`stream_id`) REFERENCES `education_stream` (`stream_id`)) in /home1/educationve/public_html/backend/adduser.php:29
+Stack trace:
+#0 /home1/educationve/public_html/backend/adduser.php(29): mysqli_query(Object(mysqli), 'INSERT INTO `us...')
+#1 {main}
+  thrown in /home1/educationve/public_html/backend/adduser.php on line 29
+[14-Apr-2023 07:39:27 America/Chicago] PHP Warning:  Undefined array key "stream" in /home1/educationve/public_html/backend/adduser.php on line 18
+[14-Apr-2023 07:39:27 America/Chicago] PHP Fatal error:  Uncaught mysqli_sql_exception: Cannot add or update a child row: a foreign key constraint fails (`educatio_verse`.`user`, CONSTRAINT `jkdgkjdaf2342534` FOREIGN KEY (`stream_id`) REFERENCES `education_stream` (`stream_id`)) in /home1/educationve/public_html/backend/adduser.php:29
+Stack trace:
+#0 /home1/educationve/public_html/backend/adduser.php(29): mysqli_query(Object(mysqli), 'INSERT INTO `us...')
+#1 {main}
+  thrown in /home1/educationve/public_html/backend/adduser.php on line 29
+[14-Apr-2023 07:39:58 America/Chicago] PHP Warning:  Undefined array key "stream" in /home1/educationve/public_html/backend/adduser.php on line 18
+[14-Apr-2023 07:39:58 America/Chicago] PHP Fatal error:  Uncaught mysqli_sql_exception: Cannot add or update a child row: a foreign key constraint fails (`educatio_verse`.`user`, CONSTRAINT `jkdgkjdaf2342534` FOREIGN KEY (`stream_id`) REFERENCES `education_stream` (`stream_id`)) in /home1/educationve/public_html/backend/adduser.php:29
+Stack trace:
+#0 /home1/educationve/public_html/backend/adduser.php(29): mysqli_query(Object(mysqli), 'INSERT INTO `us...')
+#1 {main}
+  thrown in /home1/educationve/public_html/backend/adduser.php on line 29
+[14-Apr-2023 07:40:44 America/Chicago] PHP Warning:  Undefined array key "stream" in /home1/educationve/public_html/backend/adduser.php on line 18
+[17-Apr-2023 03:23:42 America/Chicago] PHP Warning:  Undefined array key "stream" in /home1/educationve/public_html/backend/adduser.php on line 18
+[17-Apr-2023 03:26:54 America/Chicago] PHP Warning:  Undefined array key "stream" in /home1/educationve/public_html/backend/adduser.php on line 18
+[17-Apr-2023 03:30:01 America/Chicago] PHP Fatal error:  Uncaught mysqli_sql_exception: Duplicate entry 'saifalichohanf990@gmail.com' for key 'user_email' in /home1/educationve/public_html/backend/adduser.php:29
+Stack trace:
+#0 /home1/educationve/public_html/backend/adduser.php(29): mysqli_query(Object(mysqli), 'INSERT INTO `us...')
+#1 {main}
+  thrown in /home1/educationve/public_html/backend/adduser.php on line 29
+[17-Apr-2023 03:30:15 America/Chicago] PHP Fatal error:  Uncaught mysqli_sql_exception: Duplicate entry 'saifalichohanf990@gmail.com' for key 'user_email' in /home1/educationve/public_html/backend/adduser.php:29
+Stack trace:
+#0 /home1/educationve/public_html/backend/adduser.php(29): mysqli_query(Object(mysqli), 'INSERT INTO `us...')
+#1 {main}
+  thrown in /home1/educationve/public_html/backend/adduser.php on line 29
+[17-Apr-2023 03:58:26 America/Chicago] PHP Warning:  Undefined array key "User_Name" in /home1/educationve/public_html/backend/adduser.php on line 14
+[17-Apr-2023 03:58:26 America/Chicago] PHP Warning:  Undefined array key "User_Email" in /home1/educationve/public_html/backend/adduser.php on line 15
+[17-Apr-2023 03:58:26 America/Chicago] PHP Warning:  Undefined array key "stream" in /home1/educationve/public_html/backend/adduser.php on line 18
+[17-Apr-2023 03:58:26 America/Chicago] PHP Fatal error:  Uncaught mysqli_sql_exception: Cannot add or update a child row: a foreign key constraint fails (`educatio_verse`.`user`, CONSTRAINT `jkdgkjdaf2342534` FOREIGN KEY (`stream_id`) REFERENCES `education_stream` (`stream_id`)) in /home1/educationve/public_html/backend/adduser.php:29
+Stack trace:
+#0 /home1/educationve/public_html/backend/adduser.php(29): mysqli_query(Object(mysqli), 'INSERT INTO `us...')
+#1 {main}
+  thrown in /home1/educationve/public_html/backend/adduser.php on line 29
+[17-Apr-2023 04:03:00 America/Chicago] PHP Warning:  Undefined array key "user_id" in /home1/educationve/public_html/backend/updateuser.php on line 9
+[17-Apr-2023 04:03:00 America/Chicago] PHP Warning:  Undefined array key "User_Name" in /home1/educationve/public_html/backend/updateuser.php on line 17
+[17-Apr-2023 04:03:00 America/Chicago] PHP Warning:  Undefined array key "User_Email" in /home1/educationve/public_html/backend/updateuser.php on line 18
+[17-Apr-2023 04:03:00 America/Chicago] PHP Warning:  Undefined array key "Password" in /home1/educationve/public_html/backend/updateuser.php on line 19
+[17-Apr-2023 04:03:00 America/Chicago] PHP Warning:  Undefined array key "stream" in /home1/educationve/public_html/backend/updateuser.php on line 21
+[17-Apr-2023 04:03:00 America/Chicago] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home1/educationve/public_html/backend/config.php:15) in /home1/educationve/public_html/backend/updateuser.php on line 35
+[17-Apr-2023 04:03:22 America/Chicago] PHP Warning:  Undefined array key "user_id" in /home1/educationve/public_html/backend/updateuser.php on line 9
+[17-Apr-2023 04:03:22 America/Chicago] PHP Warning:  Undefined array key "User_Name" in /home1/educationve/public_html/backend/updateuser.php on line 17
+[17-Apr-2023 04:03:22 America/Chicago] PHP Warning:  Undefined array key "User_Email" in /home1/educationve/public_html/backend/updateuser.php on line 18
+[17-Apr-2023 04:03:22 America/Chicago] PHP Warning:  Undefined array key "Password" in /home1/educationve/public_html/backend/updateuser.php on line 19
+[17-Apr-2023 04:03:22 America/Chicago] PHP Warning:  Undefined array key "stream" in /home1/educationve/public_html/backend/updateuser.php on line 21
+[17-Apr-2023 04:05:14 America/Chicago] PHP Warning:  Undefined array key "user_id" in /home1/educationve/public_html/backend/updateuser.php on line 9
+[17-Apr-2023 04:05:14 America/Chicago] PHP Warning:  Undefined array key "User_Name" in /home1/educationve/public_html/backend/updateuser.php on line 17
+[17-Apr-2023 04:05:14 America/Chicago] PHP Warning:  Undefined array key "User_Email" in /home1/educationve/public_html/backend/updateuser.php on line 18
+[17-Apr-2023 04:05:14 America/Chicago] PHP Warning:  Undefined array key "Password" in /home1/educationve/public_html/backend/updateuser.php on line 19
+[17-Apr-2023 04:05:14 America/Chicago] PHP Warning:  Undefined array key "stream" in /home1/educationve/public_html/backend/updateuser.php on line 21
+[17-Apr-2023 04:06:41 America/Chicago] PHP Warning:  Undefined array key "user_id" in /home1/educationve/public_html/backend/updateuser.php on line 9
+[17-Apr-2023 04:06:41 America/Chicago] PHP Warning:  Undefined array key "User_Name" in /home1/educationve/public_html/backend/updateuser.php on line 17
+[17-Apr-2023 04:06:41 America/Chicago] PHP Warning:  Undefined array key "User_Email" in /home1/educationve/public_html/backend/updateuser.php on line 18
+[17-Apr-2023 04:06:41 America/Chicago] PHP Warning:  Undefined array key "Password" in /home1/educationve/public_html/backend/updateuser.php on line 19
+[17-Apr-2023 04:06:41 America/Chicago] PHP Warning:  Undefined array key "stream" in /home1/educationve/public_html/backend/updateuser.php on line 21
+[17-Apr-2023 04:07:11 America/Chicago] PHP Warning:  Undefined array key "user_id" in /home1/educationve/public_html/backend/updateuser.php on line 9
+[17-Apr-2023 04:07:11 America/Chicago] PHP Warning:  Undefined array key "User_Name" in /home1/educationve/public_html/backend/updateuser.php on line 17
+[17-Apr-2023 04:07:11 America/Chicago] PHP Warning:  Undefined array key "User_Email" in /home1/educationve/public_html/backend/updateuser.php on line 18
+[17-Apr-2023 04:07:11 America/Chicago] PHP Warning:  Undefined array key "Password" in /home1/educationve/public_html/backend/updateuser.php on line 19
+[17-Apr-2023 04:11:11 America/Chicago] PHP Warning:  Undefined variable $_post in /home1/educationve/public_html/backend/updateuser.php on line 9
+[17-Apr-2023 04:11:11 America/Chicago] PHP Warning:  Trying to access array offset on value of type null in /home1/educationve/public_html/backend/updateuser.php on line 9
+[17-Apr-2023 04:11:11 America/Chicago] PHP Warning:  Undefined array key "User_Name" in /home1/educationve/public_html/backend/updateuser.php on line 17
+[17-Apr-2023 04:11:11 America/Chicago] PHP Warning:  Undefined array key "User_Email" in /home1/educationve/public_html/backend/updateuser.php on line 18
+[17-Apr-2023 04:11:11 America/Chicago] PHP Warning:  Undefined array key "Password" in /home1/educationve/public_html/backend/updateuser.php on line 19
+[17-Apr-2023 04:11:59 America/Chicago] PHP Warning:  Undefined variable $_post in /home1/educationve/public_html/backend/updateuser.php on line 9
+[17-Apr-2023 04:11:59 America/Chicago] PHP Warning:  Trying to access array offset on value of type null in /home1/educationve/public_html/backend/updateuser.php on line 9
+[17-Apr-2023 04:11:59 America/Chicago] PHP Warning:  Undefined array key "User_Name" in /home1/educationve/public_html/backend/updateuser.php on line 17
+[17-Apr-2023 04:11:59 America/Chicago] PHP Warning:  Undefined array key "User_Email" in /home1/educationve/public_html/backend/updateuser.php on line 18
+[17-Apr-2023 04:11:59 America/Chicago] PHP Warning:  Undefined array key "Password" in /home1/educationve/public_html/backend/updateuser.php on line 19
+[17-Apr-2023 04:13:05 America/Chicago] PHP Warning:  Undefined array key "User_Name" in /home1/educationve/public_html/backend/updateuser.php on line 18
+[17-Apr-2023 04:13:05 America/Chicago] PHP Warning:  Undefined array key "User_Email" in /home1/educationve/public_html/backend/updateuser.php on line 19
+[17-Apr-2023 04:13:05 America/Chicago] PHP Warning:  Undefined array key "Password" in /home1/educationve/public_html/backend/updateuser.php on line 20
+[17-Apr-2023 04:13:49 America/Chicago] PHP Warning:  Undefined array key "User_Name" in /home1/educationve/public_html/backend/updateuser.php on line 18
+[17-Apr-2023 04:14:30 America/Chicago] PHP Warning:  Undefined array key "User_Name" in /home1/educationve/public_html/backend/updateuser.php on line 18
+[17-Apr-2023 04:16:56 America/Chicago] PHP Warning:  Undefined array key "User_Email" in /home1/educationve/public_html/backend/updateuser.php on line 20
+[17-Apr-2023 04:19:27 America/Chicago] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home1/educationve/public_html/backend/config.php:15) in /home1/educationve/public_html/backend/updateuser.php on line 37
+[17-Apr-2023 04:31:26 America/Chicago] PHP Fatal error:  Uncaught mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'Cascade' at line 1 in /home1/educationve/public_html/backend/deleteuser.php:11
+Stack trace:
+#0 /home1/educationve/public_html/backend/deleteuser.php(11): mysqli->query('DELETE FROM `us...')
+#1 {main}
+  thrown in /home1/educationve/public_html/backend/deleteuser.php on line 11
+[17-Apr-2023 04:32:34 America/Chicago] PHP Fatal error:  Uncaught mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'Cascade' at line 1 in /home1/educationve/public_html/backend/deleteuser.php:11
+Stack trace:
+#0 /home1/educationve/public_html/backend/deleteuser.php(11): mysqli->query('DELETE FROM `us...')
+#1 {main}
+  thrown in /home1/educationve/public_html/backend/deleteuser.php on line 11
+[17-Apr-2023 04:32:38 America/Chicago] PHP Fatal error:  Uncaught mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'Cascade' at line 1 in /home1/educationve/public_html/backend/deleteuser.php:11
+Stack trace:
+#0 /home1/educationve/public_html/backend/deleteuser.php(11): mysqli->query('DELETE FROM `us...')
+#1 {main}
+  thrown in /home1/educationve/public_html/backend/deleteuser.php on line 11
+[17-Apr-2023 04:33:09 America/Chicago] PHP Fatal error:  Uncaught mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'Cascade' at line 1 in /home1/educationve/public_html/backend/deleteuser.php:11
+Stack trace:
+#0 /home1/educationve/public_html/backend/deleteuser.php(11): mysqli->query('DELETE FROM `us...')
+#1 {main}
+  thrown in /home1/educationve/public_html/backend/deleteuser.php on line 11
+[17-Apr-2023 04:33:22 America/Chicago] PHP Fatal error:  Uncaught mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'Cascade' at line 1 in /home1/educationve/public_html/backend/deleteuser.php:11
+Stack trace:
+#0 /home1/educationve/public_html/backend/deleteuser.php(11): mysqli->query('DELETE FROM `us...')
+#1 {main}
+  thrown in /home1/educationve/public_html/backend/deleteuser.php on line 11
+[17-Apr-2023 04:33:25 America/Chicago] PHP Fatal error:  Uncaught mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'Cascade' at line 1 in /home1/educationve/public_html/backend/deleteuser.php:11
+Stack trace:
+#0 /home1/educationve/public_html/backend/deleteuser.php(11): mysqli->query('DELETE FROM `us...')
+#1 {main}
+  thrown in /home1/educationve/public_html/backend/deleteuser.php on line 11
+[17-Apr-2023 04:33:44 America/Chicago] PHP Fatal error:  Uncaught mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'Cascade' at line 1 in /home1/educationve/public_html/backend/deleteuser.php:11
+Stack trace:
+#0 /home1/educationve/public_html/backend/deleteuser.php(11): mysqli->query('DELETE FROM `us...')
+#1 {main}
+  thrown in /home1/educationve/public_html/backend/deleteuser.php on line 11
+[17-Apr-2023 05:04:02 America/Chicago] PHP Fatal error:  Uncaught mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '','55','5454','23454','ACTIVE','2023-04-17 05:04:02','NULL')' at line 2 in /home1/educationve/public_html/backend/add_program.php:20
+Stack trace:
+#0 /home1/educationve/public_html/backend/add_program.php(20): mysqli_query(Object(mysqli), 'INSERT INTO `pr...')
+#1 {main}
+  thrown in /home1/educationve/public_html/backend/add_program.php on line 20
+[17-Apr-2023 05:04:07 America/Chicago] PHP Fatal error:  Uncaught mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '','55','5454','23454','ACTIVE','2023-04-17 05:04:07','NULL')' at line 2 in /home1/educationve/public_html/backend/add_program.php:20
+Stack trace:
+#0 /home1/educationve/public_html/backend/add_program.php(20): mysqli_query(Object(mysqli), 'INSERT INTO `pr...')
+#1 {main}
+  thrown in /home1/educationve/public_html/backend/add_program.php on line 20
+[17-Apr-2023 06:32:30 America/Chicago] PHP Warning:  Undefined array key "user_id" in /home1/educationve/public_html/backend/updateuser.php on line 9
+[17-Apr-2023 06:32:30 America/Chicago] PHP Warning:  Undefined array key "Full_Name" in /home1/educationve/public_html/backend/updateuser.php on line 11
+[17-Apr-2023 06:32:30 America/Chicago] PHP Warning:  Undefined array key "Father_Name" in /home1/educationve/public_html/backend/updateuser.php on line 12
+[17-Apr-2023 06:32:30 America/Chicago] PHP Warning:  Undefined array key "Gender" in /home1/educationve/public_html/backend/updateuser.php on line 13
+[17-Apr-2023 06:32:30 America/Chicago] PHP Warning:  Undefined array key "date_of_birth" in /home1/educationve/public_html/backend/updateuser.php on line 14
+[17-Apr-2023 06:32:30 America/Chicago] PHP Warning:  Undefined array key "Religion" in /home1/educationve/public_html/backend/updateuser.php on line 15
+[17-Apr-2023 06:32:30 America/Chicago] PHP Warning:  Undefined array key "Marital_Status" in /home1/educationve/public_html/backend/updateuser.php on line 16
+[17-Apr-2023 06:32:30 America/Chicago] PHP Warning:  Undefined array key "Blood_Group" in /home1/educationve/public_html/backend/updateuser.php on line 17
+[17-Apr-2023 06:32:30 America/Chicago] PHP Warning:  Undefined array key "User_Name" in /home1/educationve/public_html/backend/updateuser.php on line 18
+[17-Apr-2023 06:32:30 America/Chicago] PHP Warning:  Undefined array key "User_Email" in /home1/educationve/public_html/backend/updateuser.php on line 19
+[17-Apr-2023 06:32:30 America/Chicago] PHP Warning:  Undefined array key "password" in /home1/educationve/public_html/backend/updateuser.php on line 20
+[17-Apr-2023 06:32:30 America/Chicago] PHP Warning:  Undefined array key "User_Role" in /home1/educationve/public_html/backend/updateuser.php on line 21
+[17-Apr-2023 06:32:30 America/Chicago] PHP Warning:  Undefined array key "Stream" in /home1/educationve/public_html/backend/updateuser.php on line 22
+[17-Apr-2023 06:32:30 America/Chicago] PHP Warning:  Undefined array key "mobile_number" in /home1/educationve/public_html/backend/updateuser.php on line 24
+[17-Apr-2023 06:32:30 America/Chicago] PHP Warning:  Undefined array key "landline" in /home1/educationve/public_html/backend/updateuser.php on line 25
+[17-Apr-2023 06:32:30 America/Chicago] PHP Warning:  Undefined array key "cnic" in /home1/educationve/public_html/backend/updateuser.php on line 26
+[17-Apr-2023 06:32:30 America/Chicago] PHP Warning:  Undefined array key "address" in /home1/educationve/public_html/backend/updateuser.php on line 27
+[17-Apr-2023 06:33:07 America/Chicago] PHP Warning:  Undefined array key "institute_id" in /home1/educationve/public_html/backend/updateinstitute.php on line 6
+[17-Apr-2023 06:33:07 America/Chicago] PHP Warning:  Undefined array key "stream_id" in /home1/educationve/public_html/backend/updateinstitute.php on line 7
+[17-Apr-2023 06:33:07 America/Chicago] PHP Warning:  Undefined array key "institute_name" in /home1/educationve/public_html/backend/updateinstitute.php on line 8
+[17-Apr-2023 06:37:18 America/Chicago] PHP Warning:  Undefined array key "institute_id" in /home1/educationve/public_html/backend/updateinstitute.php on line 6
+[17-Apr-2023 06:42:51 America/Chicago] PHP Warning:  Undefined variable $education_institute in /home1/educationve/public_html/backend/deleteinstitute.php on line 10
+[26-Apr-2023 04:16:18 America/Chicago] PHP Warning:  Undefined array key "Program_Duration" in /home1/educationve/public_html/backend/add_program.php on line 8
+[26-Apr-2023 04:16:18 America/Chicago] PHP Warning:  Undefined array key "Program_Code" in /home1/educationve/public_html/backend/add_program.php on line 9
+[26-Apr-2023 04:16:18 America/Chicago] PHP Warning:  Undefined array key "Program_Fee" in /home1/educationve/public_html/backend/add_program.php on line 11
+[26-Apr-2023 04:16:18 America/Chicago] PHP Warning:  Undefined array key "Program_status" in /home1/educationve/public_html/backend/add_program.php on line 12

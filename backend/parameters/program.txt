@@ -1,0 +1,7 @@
+Education_stream
+Program_Name
+Program_Duration
+Program_Code
+Education_institute
+Program_Fee
+Program_status

@@ -1,0 +1,16 @@
+Full_Name
+Father_Name
+Gender
+date_of_birth
+Religion
+Marital_Status
+Blood_Group
+User_Role
+User_Name
+stream
+Institute
+mobile_number
+landline
+cnic
+address
+Password

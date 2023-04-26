@@ -1,0 +1,10 @@
+components_id   AS Program_component
+stream_id       AS Education_stream
+institute_id    AS institute_id
+program_id      AS program_id
+component_name  AS Component_name
+component_code  AS Component_code
+component_fees  AS Component_fees
+component_type  AS  Component_type
+create_date
+update_date
