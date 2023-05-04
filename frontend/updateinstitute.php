@@ -231,6 +231,55 @@ include 'header.php';
                                                        
                                                          </div>
                           
+                                            </div>    <div class="col-lg-6">
+                                                        <div class="form-group row">
+                                                            <label for="example-text-input" class="col-sm-2 col-form-label text-right">Institute SpokePerson</label>
+                                                            <div class="col-sm-10">
+                                                                <input class="form-control" type="text" name="SpokePerson" id="example-text-input" value="<?= $row['institue_spokeperson']?>">
+                                                            </div>
+                                                       
+                                                         </div>
+                          
+                                            </div>
+ <div class="col-lg-6">
+                                                        <div class="form-group row">
+                                                            <label for="example-text-input" class="col-sm-2 col-form-label text-right">Institute Email</label>
+                                                            <div class="col-sm-10">
+                                                                <input class="form-control" type="email" name="Email" id="example-text-input" value="<?= $row['institute_email']?>">
+                                                            </div>
+                                                       
+                                                         </div>
+                          
+                                            </div>
+                                                  <div class="col-lg-6">
+                                                        <div class="form-group row">
+                                                            <label for="example-text-input" class="col-sm-2 col-form-label text-right">Institute Contact</label>
+                                                            <div class="col-sm-10">
+                                                                <input class="form-control" type="number" name="Contact" id="example-text-input" value="<?= $row['institute_contact']?>">
+                                                            </div>
+                                                       
+                                                         </div>
+                          
+                                            </div>
+                                                  <div class="col-lg-6">
+                                                        <div class="form-group row">
+                                                            <label for="example-text-input" class="col-sm-2 col-form-label text-right">Institute Code</label>
+                                                            <div class="col-sm-10">
+                                                                <input class="form-control" type="text" name="Code" id="example-text-input" value="<?= $row['institute_code']?>">
+                                                            </div>
+                                                       
+                                                         </div>
+                          
+                                            </div>
+                                                  <div class="col-lg-6">
+                                                        <div class="form-group row">
+                                                            <label for="example-text-input" class="col-sm-2 col-form-label text-right">Institute Address</label>
+                                                            <div class="col-sm-10">
+                                                                <input class="form-control" type="text" name="Address" id="example-text-input" value="<?= $row['institute_address']?>">
+                                                            </div>
+                                                       
+                                                         </div>
+                          
                                             </div>
 
 

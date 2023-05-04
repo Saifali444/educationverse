@@ -312,8 +312,8 @@ include 'header.php';
                                                             </a>
                                                             <div class="dropdown-menu dropdown-menu-right" aria-labelledby="dLabel9">
                                                                
-                                                                <a class="dropdown-item" href="#">Update</a>
-                                                                <a class="dropdown-item" href="#">Delete</a>
+                                                                <a class="dropdown-item" href="updatecomponent.php?cid=<?= $row['components_id']?>">Update</a>
+                                                                <a class="dropdown-item" href="../backend/deleteprogramcomponents.php?cid=<?= $row['components_id']?>">Delete</a>
                                                             </div>
                                                         </div>
                                                     </td>

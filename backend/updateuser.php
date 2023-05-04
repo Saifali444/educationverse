@@ -5,7 +5,7 @@ include 'config.php';
  
 
 if(isset($_POST['update']))
-{	 
+{	  
      $user_id = $_POST['user_id'];
     
 	 $Full_Name = $_POST['Full_Name'];
@@ -26,9 +26,9 @@ if(isset($_POST['update']))
 	 $cnic = $_POST['cnic'];
 	 $address = $_POST['address'];
 	 $current_date_time = date("Y-m-d H:i:s");
-	 
+
 	 $sql = "UPDATE `user` SET `name`='$Full_Name',`father_name`='$Father_Name',`gender`='$Gender',`dob`='$date_of_birth',`religion`='$Religion',`marital_status`='$Marital_Status',`blood_group`='$Blood_Group',`user_name`='$User_Name',`user_email`='$User_Email',`user_password`='$Password',`user_role`='$User_Role',`stream_id`='$stream',`institute_id`='$Institute',`mobile_number`='$mobile_number',`landline`='$landline',`cnic`='$cnic',`address`=' $address',`update_date`='$current_date_time' WHERE `user_id` ='$user_id'";
-	 
+	
 
             if ($conn->query($sql) === TRUE) {
               

@@ -1,110 +1,12 @@
 <?php 
+session_start();
 include '../backend/config.php';
 include 'header.php';
+include 'topbar.php';
+
+if(isset($_SESSION['login_success'])){
 ?>
-        <!-- Top Bar Start -->
-        <div class="topbar">
-             <!-- Navbar -->
-             <nav class="navbar-custom">
-
-                <!-- LOGO -->
-                <div class="topbar-left">
-                    <a href="index.html" class="logo">
-                        <span>
-                            <img src="../assets/images/logo-sm.png" alt="logo-small" class="logo-sm">
-                        </span>
-                        <span>
-                            <img src="../assets/images/logo-dark.png" alt="logo-large" class="logo-lg">
-                        </span>
-                    </a>
-                </div>
-    
-                <ul class="list-unstyled topbar-nav float-right mb-0">
-
-                    <li class="dropdown">
-                        <a class="nav-link dropdown-toggle arrow-none waves-light waves-effect" data-toggle="dropdown" href="#" role="button"
-                            aria-haspopup="false" aria-expanded="false">
-                            <i class="mdi mdi-bell-outline nav-icon"></i>
-                            <span class="badge badge-danger badge-pill noti-icon-badge">2</span>
-                        </a>
-                        <div class="dropdown-menu dropdown-menu-right dropdown-lg">
-                            <!-- item-->
-                            <h6 class="dropdown-item-text">
-                                Notifications (258)
-                            </h6>
-                            <div class="slimscroll notification-list">
-                                <!-- item-->
-                                <a href="javascript:void(0);" class="dropdown-item notify-item active">
-                                    <div class="notify-icon bg-success"><i class="mdi mdi-cart-outline"></i></div>
-                                    <p class="notify-details">Your order is placed<small class="text-muted">Dummy text of the printing and typesetting industry.</small></p>
-                                </a>
-                                <!-- item-->
-                                <a href="javascript:void(0);" class="dropdown-item notify-item">
-                                    <div class="notify-icon bg-warning"><i class="mdi mdi-message"></i></div>
-                                    <p class="notify-details">New Message received<small class="text-muted">You have 87 unread messages</small></p>
-                                </a>
-                                <!-- item-->
-                                <a href="javascript:void(0);" class="dropdown-item notify-item">
-                                    <div class="notify-icon bg-info"><i class="mdi mdi-glass-cocktail"></i></div>
-                                    <p class="notify-details">Your item is shipped<small class="text-muted">It is a long established fact that a reader will</small></p>
-                                </a>
-                                <!-- item-->
-                                <a href="javascript:void(0);" class="dropdown-item notify-item">
-                                    <div class="notify-icon bg-primary"><i class="mdi mdi-cart-outline"></i></div>
-                                    <p class="notify-details">Your order is placed<small class="text-muted">Dummy text of the printing and typesetting industry.</small></p>
-                                </a>
-                                <!-- item-->
-                                <a href="javascript:void(0);" class="dropdown-item notify-item">
-                                    <div class="notify-icon bg-danger"><i class="mdi mdi-message"></i></div>
-                                    <p class="notify-details">New Message received<small class="text-muted">You have 87 unread messages</small></p>
-                                </a>
-                            </div>
-                            <!-- All-->
-                            <a href="javascript:void(0);" class="dropdown-item text-center text-primary">
-                                View all <i class="fi-arrow-right"></i>
-                            </a>
-                        </div>
-                    </li>
-
-                    <li class="dropdown">
-                        <a class="nav-link dropdown-toggle waves-effect waves-light nav-user" data-toggle="dropdown" href="#" role="button"
-                            aria-haspopup="false" aria-expanded="false">
-                            <img src="../assets/images/users/user-1.jpg" alt="profile-user" class="rounded-circle" /> 
-                            <span class="ml-1 nav-user-name hidden-sm"> <i class="mdi mdi-chevron-down"></i> </span>
-                        </a>
-                        <div class="dropdown-menu dropdown-menu-right">
-                            <a class="dropdown-item" href="#"><i class="dripicons-user text-muted mr-2"></i> Profile</a>
-                            <a class="dropdown-item" href="#"><i class="dripicons-wallet text-muted mr-2"></i> My Wallet</a>
-                            <a class="dropdown-item" href="#"><i class="dripicons-gear text-muted mr-2"></i> Settings</a>
-                            <a class="dropdown-item" href="#"><i class="dripicons-lock text-muted mr-2"></i> Lock screen</a>
-                            <div class="dropdown-divider"></div>
-                            <a class="dropdown-item" href="#"><i class="dripicons-exit text-muted mr-2"></i> Logout</a>
-                        </div>
-                    </li>
-                </ul>
-    
-                <ul class="list-unstyled topbar-nav mb-0">
-                        
-                    <li>
-                        <button class="button-menu-mobile nav-link waves-effect waves-light">
-                            <i class="mdi mdi-menu nav-icon"></i>
-                        </button>
-                    </li>
-
-                    <li class="hide-phone app-search">
-                        <form role="search" class="">
-                            <input type="text" placeholder="Search..." class="form-control">
-                            <a href=""><i class="fas fa-search"></i></a>
-                        </form>
-                    </li>
-                    
-                </ul>
-
-            </nav>
-            <!-- end navbar-->
-        </div>
-        <!-- Top Bar End -->
-        <div class="page-wrapper-img">
+           <div class="page-wrapper-img">
             <div class="page-wrapper-img-inner">
                 <div class="sidebar-user media">                    
                     <img src="../assets/images/users/user-1.jpg" alt="user" class="rounded-circle img-thumbnail mb-1">
@@ -186,7 +88,7 @@ include 'header.php';
         
                                             <tbody>
                                                       <?php
-                                            $sql = "SELECT * FROM `program` INNER JOIN education_stream ON program.stream_id=education_stream.stream_id INNER JOIN education_institute ON program.institute_id = education_institute.institute_id";
+                                            $sql = "SELECT * FROM `section` INNER JOIN education_stream ON section.stream_id=education_stream.stream_id INNER JOIN education_institute ON section.institute_id = education_institute.institute_id INNER JOIN program ON section.program_id = program.program_id INNER JOIN program_components ON section.component_id = program_components.components_id INNER JOIN user ON section.teacher_assign = user.user_id";
                                         $result = $conn->query($sql);
                                         
                                         if ($result->num_rows > 0) {
@@ -197,9 +99,9 @@ include 'header.php';
                                           ?>
                                             <tr>
                                                 <td><?= $counter?></td>
-                                                <td><?= $row['program_name']?></td>
-                                                <td><?= $row['stream_name']?></td>
-                                                <td><?= $row['institute_name']?></td>
+                                                <td><?= $row['section_name']?></td>
+                                                <td><?= $row['name']?></td>
+                                                <td><?= $row['component_name']?></td>
                                             
                                                 <td>
                                                         <div class="dropdown d-inline-block float-right">
@@ -207,9 +109,9 @@ include 'header.php';
                                                                 <i class="fas fa-ellipsis-v font-20 text-muted"></i>
                                                             </a>
                                                             <div class="dropdown-menu dropdown-menu-right" aria-labelledby="dLabel9">
-                                                                <a class="dropdown-item" href="viewprogram.php?pid=<?= $row['program_id'] ?>">View</a>
-                                                                <a class="dropdown-item" href="#">Update</a>
-                                                                <a class="dropdown-item" href="#">Delete</a>
+                                                                <a class="dropdown-item" href="viewsection.php?sid=<?= $row['section_id'] ?>">View</a>
+                                                                <a class="dropdown-item" href="updatesection.php?sid=<?= $row['section_id'] ?>">Update</a>
+                                                                <a class="dropdown-item" href="../backend/deletesection.php?sid=<?= $row['section_id'] ?>">Delete</a>
                                                             </div>
                                                         </div>
                                                     </td>
@@ -248,7 +150,7 @@ include 'header.php';
                                                         <button type="button" class="close" data-dismiss="modal" aria-hidden="true">×</button>
                                                     </div>
                                                     
-                                                    <form method="POST" action="../backend/add_program.php">
+                                                    <form method="POST" action="../backend/addsection.php">
                                                     <div class="modal-body">
                                                     <div class="row">
                                                     <div class="col-lg-6">
@@ -387,7 +289,7 @@ include 'header.php';
                                                         <div class="form-group row">
                                                             <label class="col-sm-2 col-form-label text-right">Select Component</label>
                                                             <div class="col-sm-10">
-                                                                <select class="form-control" name="Program_Name">
+                                                                <select class="form-control" name="Program_component">
                                                                     <option>Select</option>
                                                                     
                                                                                                                                                           <?php
@@ -524,3 +426,13 @@ include 'header.php';
 
     </body>
 </html>
+
+<?php
+
+}else{
+      echo "
+                    <script>
+                        window.open('https://educationverse.org/frontend/login.php','_self');
+                    </script>";
+}
+?>

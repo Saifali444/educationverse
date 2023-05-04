@@ -1,110 +1,14 @@
 <?php 
 session_start();
 include '../backend/config.php';
-include 'header.php';?>
-        <!-- Top Bar Start -->
-        <div class="topbar">
-             <!-- Navbar -->
-             <nav class="navbar-custom">
+include 'header.php';
+include 'topbar.php';
 
-                <!-- LOGO -->
-                <div class="topbar-left">
-                    <a href="index.html" class="logo">
-                        <span>
-                            <img src="../assets/images/logo-sm.png" alt="logo-small" class="logo-sm">
-                        </span>
-                        <span>
-                            <img src="../assets/images/logo-dark.png" alt="logo-large" class="logo-lg">
-                        </span>
-                    </a>
-                </div>
+
+if(isset($_SESSION['login_success'])){
     
-                <ul class="list-unstyled topbar-nav float-right mb-0">
-
-                    <li class="dropdown">
-                        <a class="nav-link dropdown-toggle arrow-none waves-light waves-effect" data-toggle="dropdown" href="#" role="button"
-                            aria-haspopup="false" aria-expanded="false">
-                            <i class="mdi mdi-bell-outline nav-icon"></i>
-                            <span class="badge badge-danger badge-pill noti-icon-badge">2</span>
-                        </a>
-                        <div class="dropdown-menu dropdown-menu-right dropdown-lg">
-                            <!-- item-->
-                            <h6 class="dropdown-item-text">
-                                Notifications (258)
-                            </h6>u
-                            <div class="slimscroll notification-list">
-                                <!-- item-->
-                                <a href="javascript:void(0);" class="dropdown-item notify-item active">
-                                    <div class="notify-icon bg-success"><i class="mdi mdi-cart-outline"></i></div>
-                                    <p class="notify-details">Your order is placed<small class="text-muted">Dummy text of the printing and typesetting industry.</small></p>
-                                </a>
-                                <!-- item-->
-                                <a href="javascript:void(0);" class="dropdown-item notify-item">
-                                    <div class="notify-icon bg-warning"><i class="mdi mdi-message"></i></div>
-                                    <p class="notify-details">New Message received<small class="text-muted">You have 87 unread messages</small></p>
-                                </a>
-                                <!-- item-->
-                                <a href="javascript:void(0);" class="dropdown-item notify-item">
-                                    <div class="notify-icon bg-info"><i class="mdi mdi-glass-cocktail"></i></div>
-                                    <p class="notify-details">Your item is shipped<small class="text-muted">It is a long established fact that a reader will</small></p>
-                                </a>
-                                <!-- item-->
-                                <a href="javascript:void(0);" class="dropdown-item notify-item">
-                                    <div class="notify-icon bg-primary"><i class="mdi mdi-cart-outline"></i></div>
-                                    <p class="notify-details">Your order is placed<small class="text-muted">Dummy text of the printing and typesetting industry.</small></p>
-                                </a>
-                                <!-- item-->
-                                <a href="javascript:void(0);" class="dropdown-item notify-item">
-                                    <div class="notify-icon bg-danger"><i class="mdi mdi-message"></i></div>
-                                    <p class="notify-details">New Message received<small class="text-muted">You have 87 unread messages</small></p>
-                                </a>
-                            </div>
-                            <!-- All-->
-                            <a href="javascript:void(0);" class="dropdown-item text-center text-primary">
-                                View all <i class="fi-arrow-right"></i>
-                            </a>
-                        </div>
-                    </li>
-
-                    <li class="dropdown">
-                        <a class="nav-link dropdown-toggle waves-effect waves-light nav-user" data-toggle="dropdown" href="#" role="button"
-                            aria-haspopup="false" aria-expanded="false">
-                            <img src="../assets/images/users/user-1.jpg" alt="profile-user" class="rounded-circle" /> 
-                            <span class="ml-1 nav-user-name hidden-sm"> <i class="mdi mdi-chevron-down"></i> </span>
-                        </a>
-                        <div class="dropdown-menu dropdown-menu-right">
-                            <a class="dropdown-item" href="#"><i class="dripicons-user text-muted mr-2"></i> Profile</a>
-                            <a class="dropdown-item" href="#"><i class="dripicons-wallet text-muted mr-2"></i> My Wallet</a>
-                            <a class="dropdown-item" href="#"><i class="dripicons-gear text-muted mr-2"></i> Settings</a>
-                            <a class="dropdown-item" href="#"><i class="dripicons-lock text-muted mr-2"></i> Lock screen</a>
-                            <div class="dropdown-divider"></div>
-                            <a class="dropdown-item" href="#"><i class="dripicons-exit text-muted mr-2"></i> Logout</a>
-                        </div>
-                    </li>
-                </ul>
-    
-                <ul class="list-unstyled topbar-nav mb-0">
-                        
-                    <li>
-                        <button class="button-menu-mobile nav-link waves-effect waves-light">
-                            <i class="mdi mdi-menu nav-icon"></i>
-                        </button>
-                    </li>
-
-                    <li class="hide-phone app-search">
-                        <form role="search" class="">
-                            <input type="text" placeholder="Search..." class="form-control">
-                            <a href=""><i class="fas fa-search"></i></a>
-                        </form>
-                    </li>
-                    
-                </ul>
-
-            </nav>
-            <!-- end navbar-->
-        </div>
-        <!-- Top Bar End -->
-        <div class="page-wrapper-img">
+?>
+    <div class="page-wrapper-img">
             <div class="page-wrapper-img-inner">
                 <div class="sidebar-user media">                    
                     <img src="../assets/images/users/user-1.jpg" alt="user" class="rounded-circle img-thumbnail mb-1">
@@ -138,7 +42,7 @@ include 'header.php';?>
                             <h4 class="page-title mb-2"><i class="mdi mdi-table-large mr-2"></i>EDUCATION VERSE</h4>  
                             <div class="">
                                 <ol class="breadcrumb">
-                                    <li class="breadcrumb-item"><a href="javascript:void(0);">USERS</a></li>
+                                    <li class="breadcrumb-item"><a href="javascript:void(0);">Program Component</a></li>
 
                                 </ol>
                             </div>                                      
@@ -261,7 +165,7 @@ include 'header.php';?>
                                                                 <i class="fas fa-ellipsis-v font-20 text-muted"></i>
                                                             </a>
                                                             <div class="dropdown-menu dropdown-menu-right" aria-labelledby="dLabel9">
-                                                                <a class="dropdown-item" href="#">View</a>
+                                                                <a class="dropdown-item" href="profile.php?uid=<?= $row['user_id']?>">View</a>
                                                                 <a class="dropdown-item" href="updateuser.php?uid=<?= $row['user_id']?>">Update</a>
                                                                 <a class="dropdown-item" href="../backend/deleteuser.php?uid=<?= $row['user_id']?>">Delete</a>
                                                             </div>
@@ -302,45 +206,45 @@ include 'header.php';?>
                                                         <button type="button" class="close" data-dismiss="modal" aria-hidden="true">×</button>
                                                     </div>
                                                     
-                                                    <form method="POST" action="../backend/adduser.php">
-                                                    <div class="modal-body">
-                                                    <div class="row">
+                                                    <form method="POST" action="../backend/adduser.php" id="my_form">
+                                                    <div class="modal-body p-5">
+                                                    <div class="row mr-auto">
                                                     <div class="col-lg-6">
                                                         <div class="form-group row">
-                                                            <label for="example-text-input" class="col-sm-2 col-form-label text-right">Full Name</label>
-                                                            <div class="col-sm-10">
-                                                                <input class="form-control" type="text" name="Full_Name" id="example-text-input">
+                                                            <label for="example-text-input" class="col-sm-3 col-form-label text-left">Full Name</label>
+                                                            <div class="col-sm-9">
+                                                                <input class="form-control" type="text" name="Full_Name" id="example-text-input" placeholder="Alex Clark..." required>
                                                             </div>
                                                         </div>
                                                         <div class="form-group row">
-                                                            <label for="example-text-input" class="col-sm-2 col-form-label text-right">Father Name</label>
-                                                            <div class="col-sm-10">
-                                                                <input class="form-control" type="text" name="Father_Name" id="example-text-input">
+                                                            <label for="example-text-input" class="col-sm-3 col-form-label text-left">Father Name</label>
+                                                            <div class="col-sm-9">
+                                                                <input class="form-control" type="text" name="Father_Name" id="example-text-input" placeholder="Clark Kent..." required>
                                                             </div>
                                                         </div>
                                                   <div class="form-group row">
-                                                                    <label class="col-sm-2 col-form-label text-right">Gender</label>
-                                                                    <div class="col-sm-10">
-                                                                        <select class="form-control" name="Gender">
-                                                                            <option>Select</option>
-                                                                            <option Value="MALE" >MALE</option>
-                                                                            <option Value="FEMALE" >FEMALE</option>
-                                                                            <option Value="OTHER" >OTHER</option>
+                                                                    <label class="col-sm-3 col-form-label text-left">Gender</label>
+                                                                    <div class="col-sm-9">
+                                                                        <select class="form-control" name="Gender" id="gender" required>
+                                                                            <option Value="">Select</option>
+                                                                            <option Value="MALE" >Male</option>
+                                                                            <option Value="FEMALE" >Female</option>
+                                                                            <option Value="OTHER" >Other</option>
                                                                             
                                                                         </select>
                                                                     </div>
                                                                 </div>
                                                         <div class="form-group row">
-                                                            <label for="example-date-input" class="col-sm-2 col-form-label text-right">DOB</label>
-                                                            <div class="col-sm-10">
-                                                                <input class="form-control" type="date" name="date_of_birth" id="example-date-input">
+                                                            <label for="example-date-input" class="col-sm-3 col-form-label text-left">DOB</label>
+                                                            <div class="col-sm-9">
+                                                                <input class="form-control" type="date" name="date_of_birth" id="example-date-input" required>
                                                             </div>
                                                         </div>
                                                         <div class="form-group row">
-                                                            <label class="col-sm-2 col-form-label text-right">Religion</label>
-                                                            <div class="col-sm-10">
-                                                                <select class="form-control" name="Religion">
-                                                                    <option>Select</option>
+                                                            <label class="col-sm-3 col-form-label text-left">Religion</label>
+                                                            <div class="col-sm-9">
+                                                                <select class="form-control" name="Religion" id="religion" required>
+                                                                    <option Value="">Select</option>
                                                                     <option Value="ISLAM">Islam</option>
                                                                     <option Value="CHRISTIAN">Christian</option>
                                                                     <option Value="HINDU">Hindu</option>
@@ -350,10 +254,10 @@ include 'header.php';?>
                                                             </div>
                                                         </div>
                                                         <div class="form-group row">
-                                                            <label class="col-sm-2 col-form-label text-right">Marital Status</label>
-                                                            <div class="col-sm-10">
-                                                                <select class="form-control" name="Marital_Status">
-                                                                    <option>Select</option>
+                                                            <label class="col-sm-3 col-form-label text-left">Marital Status</label>
+                                                            <div class="col-sm-9">
+                                                                <select class="form-control" name="Marital_Status" id="marital_status" required>
+                                                                    <option Value="">Select</option>
                                                                     <option Value="SINGLE">Single</option>
                                                                     <option Value="MARRIED">Married</option>
                                                                     <option Value="DIVORCED">Divorced</option>
@@ -362,10 +266,10 @@ include 'header.php';?>
                                                             </div>
                                                         </div>
                                                         <div class="form-group row">
-                                                            <label class="col-sm-2 col-form-label text-right">Blood Group</label>
-                                                            <div class="col-sm-10">
-                                                                <select class="form-control" name="Blood_Group">
-                                                                    <option>Select</option>
+                                                            <label class="col-sm-3 col-form-label text-left">Blood Group</label>
+                                                            <div class="col-sm-9">
+                                                                <select class="form-control" name="Blood_Group" id="blood_group" required>
+                                                                    <option Value="">Select</option>
                                                                     <option Value="A+">A+</option>
                                                                     <option Value="A-">A-</option>
                                                                     <option Value="B+">B+</option>
@@ -379,15 +283,15 @@ include 'header.php';?>
                                                             </div>
                                                         </div>
                                                         <div class="form-group row">
-                                                            <label for="example-text-input" class="col-sm-2 col-form-label text-right">User Name</label>
-                                                            <div class="col-sm-10">
-                                                                <input class="form-control" type="text" name="User_Name" id="example-text-input">
+                                                            <label for="example-text-input" class="col-sm-3 col-form-label text-left">User Name</label>
+                                                            <div class="col-sm-9">
+                                                                <input class="form-control" type="text" name="User_Name" id="example-text-input" placeholder="Alex123..." required>
                                                             </div>
                                                         </div>
                                                         <div class="form-group row">
-                                                            <label for="example-text-input" class="col-sm-2 col-form-label text-right">User Email</label>
-                                                            <div class="col-sm-10">
-                                                                <input class="form-control" type="email" name="User_Email" id="example-text-input">
+                                                            <label for="example-text-input" class="col-sm-3 col-form-label text-left">User Email</label>
+                                                            <div class="col-sm-9">
+                                                                <input class="form-control" type="email" name="User_Email" id="example-text-input" placeholder="Alex@gmail.com..." required>
                                                             </div>
                                                         </div>
                                                         
@@ -399,10 +303,10 @@ include 'header.php';?>
 
                                                 
                                                         <div class="form-group row">
-                                                            <label class="col-sm-2 col-form-label text-right">User Role</label>
-                                                            <div class="col-sm-10">
-                                                                <select class="form-control" name="User_Role">
-                                                                    <option>Select</option>
+                                                            <label class="col-sm-3 col-form-label text-right">User Role</label>
+                                                            <div class="col-sm-9">
+                                                                <select class="form-control" name="User_Role" id="user_role" required>
+                                                                    <option Value="">Select</option>
                                                                     <option Value="superadmin">Super Admin</option>
                                                                     <option Value="admin">Admin</option>
                                                                     <option Value="teacher/trainer">Teacher/ Trainer</option>
@@ -414,16 +318,16 @@ include 'header.php';?>
                                                                     <option Value="exams_controller">Exams Controller</option>
                                                                     <option Value="QEC">QEC</option>
                                                                     <option Value="principal/registrar">Principal/ Registrar</option>
-                                                                    <option Value="jradmin">junior Admin</option>
-                                                                    <option Value="DEAN/HOD">DEAN/ HOD</option>
+                                                                    <option Value="jradmin">Junior Admin</option>
+                                                                    <option Value="DEAN/HOD">Dean/ HOD</option>
                                                                 </select>
                                                             </div>
                                                         </div>
                                                         <div class="form-group row">
-                                                            <label class="col-sm-2 col-form-label text-right">Stream</label>
-                                                            <div class="col-sm-10">
-                                                                <select class="form-control" name="stream">
-                                                                    <option>Select</option>
+                                                            <label class="col-sm-3 col-form-label text-right">Stream</label>
+                                                            <div class="col-sm-9">
+                                                                <select class="form-control" name="stream" id="stream" required>
+                                                                    <option Value="">Select</option>
                                                                     
                                                                
                                                                     <?php
@@ -457,10 +361,10 @@ include 'header.php';?>
                                                             </div>
                                                         </div>
                                                         <div class="form-group row">
-                                                            <label class="col-sm-2 col-form-label text-right">Institute</label>
-                                                            <div class="col-sm-10">
-                                                                <select class="form-control" name="Institute">
-                                                                    <option>Select</option>
+                                                            <label class="col-sm-3 col-form-label text-right">Institute</label>
+                                                            <div class="col-sm-9">
+                                                                <select class="form-control" name="Institute" id="institute" required>
+                                                                    <option Value="">Select</option>
                                                                                                                          
                                                                                     <?php
                                                                                 $sql = "SELECT * FROM `education_institute`";
@@ -490,38 +394,38 @@ include 'header.php';?>
                                                         </div>
                                                          
                                                         <div class="form-group row">
-                                                            <label for="example-text-input" class="col-sm-2 col-form-label text-right">Mobile Number</label>
-                                                            <div class="col-sm-10">
-                                                                <input class="form-control" type="number" name="mobile_number" id="example-text-input">
+                                                            <label for="example-text-input" class="col-sm-3 col-form-label text-right">Mobile Number</label>
+                                                            <div class="col-sm-9">
+                                                                <input class="form-control" type="number" name="mobile_number" id="mobile_number" placeholder="923000000000" required>
                                                             </div>
                                                         </div>
 
 
                                                         <div class="form-group row">
-                                                            <label for="example-text-input" class="col-sm-2 col-form-label text-right">Landline</label>
-                                                            <div class="col-sm-10">
-                                                                <input class="form-control" type="number" name="landline" id="example-text-input">
+                                                            <label for="example-text-input" class="col-sm-3 col-form-label text-right">Landline</label>
+                                                            <div class="col-sm-9">
+                                                                <input class="form-control" type="number" name="landline" id="land_line" placeholder="924200000000" required>
                                                             </div>
                                                         </div>            
 
                                                         <div class="form-group row">
-                                                            <label for="example-text-input" class="col-sm-2 col-form-label text-right">CNIC</label>
-                                                            <div class="col-sm-10">
-                                                                <input class="form-control" type="number" name="cnic" id="example-text-input">
+                                                            <label for="example-text-input" class="col-sm-3 col-form-label text-right">CNIC</label>
+                                                            <div class="col-sm-9">
+                                                                <input class="form-control" type="number" name="cnic" id="cnic" placeholder="3520000000001" required>
                                                             </div>
                                                         </div> 
 
                                                         <div class="form-group row">
-                                                            <label for="example-text-input" class="col-sm-2 col-form-label text-right">Address</label>
-                                                            <div class="col-sm-10">
-                                                                <input class="form-control" type="text" name="address" id="example-text-input">
+                                                            <label for="example-text-input" class="col-sm-3 col-form-label text-right">Address</label>
+                                                            <div class="col-sm-9">
+                                                                <input class="form-control" type="text" name="address" id="example-text-input" placeholder="House 1 Block 1 Lhr, Pk..." required>
                                                             </div>
                                                         </div>
 
                                                         <div class="form-group row">
-                                                            <label for="example-text-input" class="col-sm-2 col-form-label text-right">Password</label>
-                                                            <div class="col-sm-10">
-                                                                <input class="form-control" type="password" name="password" id="example-text-input">
+                                                            <label for="example-text-input" class="col-sm-3 col-form-label text-right">Password</label>
+                                                            <div class="col-sm-9">
+                                                                <input class="form-control" type="password" name="password" id="password" placeholder="Abc1234567" required>
                                                             </div>
                                                         </div> 
 
@@ -533,7 +437,7 @@ include 'header.php';?>
                                                     </div>
                                                     <div class="modal-footer">
                                                         <button type="button" class="btn btn-secondary waves-effect" data-dismiss="modal">Close</button>
-                                                        <button type="submit" name="save" class="btn btn-primary waves-effect waves-light">Save changes</button>
+                                                        <button type="submit" name="save" class="btn btn-primary waves-effect waves-light">Save</button>
                                                     </div>
                                                    </form> 
                                                     
@@ -581,6 +485,57 @@ include 'header.php';?>
 
         <!-- App js -->
         <script src="../assets/js/app.js"></script>
+        <script defer>
+                document.getElementById('my_form').addEventListener('submit', (event) => {
+                    let phnNumber = document.getElementById("mobile_number").value;
+                    let cnic = document.getElementById("cnic").value;
+                    let landLine = document.getElementById("land_line").value;
+                    
+                    let password = document.getElementById("password").value;
+                    const passwordPattern = /^(?=.*[A-Z])(?=.*\d)/; 
+                    if(password.length >= 8 && passwordPattern.test(password))
+                    {
+                        return true;
+                    }
+                    else
+                    {
+                        alert("Password must contain an Upper case letter and a Digit and minimun 8 characters")
+                        event.preventDefault();
+                    }
+                    
+                    
+                    if(phnNumber.length === 12){
+                        if(cnic.length === 13){
+                            if(landLine.length === 12){
+                                return true
+                            }else{
+                                alert("Enter Valid Land Line Number with 92")
+                                event.preventDefault();
+                            }
+                        }else{
+                            alert("Enter Valid CNIC")
+                            event.preventDefault();
+                        }
+                    }else{
+                        alert("Enter Valid Phone Number with 92")
+                         event.preventDefault();
+                    }
+                     
+                    
+            });
+        </script>
+    
 
     </body>
 </html>
+
+
+<?php
+
+}else{
+      echo "
+                    <script>
+                        window.open('https://educationverse.org/frontend/login.php','_self');
+                    </script>";
+}
+?>

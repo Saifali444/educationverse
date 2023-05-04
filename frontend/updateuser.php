@@ -402,11 +402,14 @@ include 'header.php';
                                                                         </select>
                                                                     </div>
                                                                 </div>
+                                                                
+                                                                
+                                                                
                                                                 <div class="form-group row">
                                                                     <label class="col-sm-2 col-form-label text-right">Stream</label>
                                                                     <div class="col-sm-10">
                                                                         <select class="form-control" name="Stream" disabled>
-                                                                            <option>Select</option>
+                                                                     
                                                                                         <?php
                                                                                 $sql = "SELECT * FROM `education_stream`";
                                                                             $result = $conn->query($sql);
@@ -416,14 +419,18 @@ include 'header.php';
                                                                               
                                                                               ?>
                                                                               
-                                                                          <option Value="<?= $row1['stream_id']?>" <?php if($row['stream_name']==$row1['stream_name']){
-                                                                                   echo "selected";
-                                                                                  } ?>><?= $row1['stream_name']?></option>
-                                                                              
+                                                                          <option value="<?= $row1['stream_id']?>"><?= $row1['stream_name']?></option>
                                                                               
                                                                               
                                                                               <?php
                                                                               }
+                                                                              
+                                                                              
+                                                                              
+                                                                              ?>
+                                                                               <input class="form-control" type="hidden" name="Stream" id="example-text-input" value="<?= $row['stream_id'] ?>">
+                                                                              
+                                                                              <?php
                                                                             } else {
                                                                               echo "0 results";
                                                                             }
@@ -440,7 +447,7 @@ include 'header.php';
                                                                     <label class="col-sm-2 col-form-label text-right">Institute</label>
                                                                     <div class="col-sm-10">
                                                                         <select class="form-control" name="Institute" disabled>
-                                                                            <option>Select</option>
+                                                                           
                                                                                                                                
                                                                                     <?php
                                                                                 $sql = "SELECT * FROM `education_institute`";
@@ -451,14 +458,17 @@ include 'header.php';
                                                                               
                                                                               ?>
                                                                               
-                                                                          <option Value="<?= $row1['institute_id']?>"  <?php if($row['institute_name']==$row1['institute_name']){
-                                                                                   echo "selected";
-                                                                                  } ?>><?= $row1['institute_name']?></option>
+                                                                          <option value="<?= $row1['institute_id']?>" ><?= $row1['institute_name']?></option>
                                                                               
                                                                               
                                                                               
                                                                               <?php
                                                                               }
+                                                                               
+                                                                              ?>
+                                                                               <input class="form-control" type="hidden" name="Institute" id="example-text-input" value="<?= $row['institute_id'] ?>">
+                                                                              
+                                                                              <?php
                                                                             } else {
                                                                               echo "0 results";
                                                                             }

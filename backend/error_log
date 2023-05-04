@@ -247,3 +247,590 @@ Stack trace:
 [26-Apr-2023 04:16:18 America/Chicago] PHP Warning:  Undefined array key "Program_Code" in /home1/educationve/public_html/backend/add_program.php on line 9
 [26-Apr-2023 04:16:18 America/Chicago] PHP Warning:  Undefined array key "Program_Fee" in /home1/educationve/public_html/backend/add_program.php on line 11
 [26-Apr-2023 04:16:18 America/Chicago] PHP Warning:  Undefined array key "Program_status" in /home1/educationve/public_html/backend/add_program.php on line 12
+[26-Apr-2023 06:15:17 America/Chicago] PHP Warning:  Undefined array key "Stream" in /home1/educationve/public_html/backend/updateuser.php on line 22
+[26-Apr-2023 06:15:17 America/Chicago] PHP Warning:  Undefined array key "Institute" in /home1/educationve/public_html/backend/updateuser.php on line 23
+[26-Apr-2023 06:15:17 America/Chicago] PHP Fatal error:  Uncaught mysqli_sql_exception: Cannot add or update a child row: a foreign key constraint fails (`educatio_verse`.`user`, CONSTRAINT `jkdgkjdaf2342534` FOREIGN KEY (`stream_id`) REFERENCES `education_stream` (`stream_id`) ON DELETE CASCADE ON UPDATE CASCADE) in /home1/educationve/public_html/backend/updateuser.php:33
+Stack trace:
+#0 /home1/educationve/public_html/backend/updateuser.php(33): mysqli->query('UPDATE `user` S...')
+#1 {main}
+  thrown in /home1/educationve/public_html/backend/updateuser.php on line 33
+[26-Apr-2023 06:15:28 America/Chicago] PHP Warning:  Undefined array key "Stream" in /home1/educationve/public_html/backend/updateuser.php on line 22
+[26-Apr-2023 06:15:28 America/Chicago] PHP Warning:  Undefined array key "Institute" in /home1/educationve/public_html/backend/updateuser.php on line 23
+[26-Apr-2023 06:15:28 America/Chicago] PHP Fatal error:  Uncaught mysqli_sql_exception: Cannot add or update a child row: a foreign key constraint fails (`educatio_verse`.`user`, CONSTRAINT `jkdgkjdaf2342534` FOREIGN KEY (`stream_id`) REFERENCES `education_stream` (`stream_id`) ON DELETE CASCADE ON UPDATE CASCADE) in /home1/educationve/public_html/backend/updateuser.php:33
+Stack trace:
+#0 /home1/educationve/public_html/backend/updateuser.php(33): mysqli->query('UPDATE `user` S...')
+#1 {main}
+  thrown in /home1/educationve/public_html/backend/updateuser.php on line 33
+[26-Apr-2023 06:15:40 America/Chicago] PHP Warning:  Undefined array key "Stream" in /home1/educationve/public_html/backend/updateuser.php on line 22
+[26-Apr-2023 06:15:40 America/Chicago] PHP Warning:  Undefined array key "Institute" in /home1/educationve/public_html/backend/updateuser.php on line 23
+[26-Apr-2023 06:15:40 America/Chicago] PHP Fatal error:  Uncaught mysqli_sql_exception: Cannot add or update a child row: a foreign key constraint fails (`educatio_verse`.`user`, CONSTRAINT `jkdgkjdaf2342534` FOREIGN KEY (`stream_id`) REFERENCES `education_stream` (`stream_id`) ON DELETE CASCADE ON UPDATE CASCADE) in /home1/educationve/public_html/backend/updateuser.php:33
+Stack trace:
+#0 /home1/educationve/public_html/backend/updateuser.php(33): mysqli->query('UPDATE `user` S...')
+#1 {main}
+  thrown in /home1/educationve/public_html/backend/updateuser.php on line 33
+[26-Apr-2023 06:17:38 America/Chicago] PHP Warning:  Undefined array key "Stream" in /home1/educationve/public_html/backend/updateuser.php on line 22
+[26-Apr-2023 06:17:38 America/Chicago] PHP Warning:  Undefined array key "Institute" in /home1/educationve/public_html/backend/updateuser.php on line 23
+[26-Apr-2023 06:19:32 America/Chicago] PHP Warning:  Undefined array key "Stream" in /home1/educationve/public_html/backend/updateuser.php on line 22
+[26-Apr-2023 06:19:32 America/Chicago] PHP Warning:  Undefined array key "Institute" in /home1/educationve/public_html/backend/updateuser.php on line 23
+[26-Apr-2023 06:20:30 America/Chicago] PHP Warning:  Undefined array key "Stream" in /home1/educationve/public_html/backend/updateuser.php on line 22
+[26-Apr-2023 06:20:30 America/Chicago] PHP Warning:  Undefined array key "Institute" in /home1/educationve/public_html/backend/updateuser.php on line 23
+[26-Apr-2023 06:22:04 America/Chicago] PHP Warning:  Undefined array key "Stream" in /home1/educationve/public_html/backend/updateuser.php on line 22
+[26-Apr-2023 06:22:04 America/Chicago] PHP Warning:  Undefined array key "Institute" in /home1/educationve/public_html/backend/updateuser.php on line 23
+[26-Apr-2023 06:23:43 America/Chicago] PHP Warning:  Undefined array key "Stream" in /home1/educationve/public_html/backend/updateuser.php on line 22
+[26-Apr-2023 06:23:43 America/Chicago] PHP Warning:  Undefined array key "Institute" in /home1/educationve/public_html/backend/updateuser.php on line 23
+[26-Apr-2023 06:24:33 America/Chicago] PHP Warning:  Undefined array key "Stream" in /home1/educationve/public_html/backend/updateuser.php on line 22
+[26-Apr-2023 06:24:33 America/Chicago] PHP Warning:  Undefined array key "Institute" in /home1/educationve/public_html/backend/updateuser.php on line 23
+[26-Apr-2023 06:25:57 America/Chicago] PHP Warning:  Undefined array key "Stream" in /home1/educationve/public_html/backend/updateuser.php on line 22
+[26-Apr-2023 06:25:57 America/Chicago] PHP Warning:  Undefined array key "Institute" in /home1/educationve/public_html/backend/updateuser.php on line 23
+[26-Apr-2023 06:26:21 America/Chicago] PHP Warning:  Undefined array key "Stream" in /home1/educationve/public_html/backend/updateuser.php on line 22
+[26-Apr-2023 06:26:21 America/Chicago] PHP Warning:  Undefined array key "Institute" in /home1/educationve/public_html/backend/updateuser.php on line 23
+[26-Apr-2023 06:29:08 America/Chicago] PHP Warning:  Undefined array key "Stream" in /home1/educationve/public_html/backend/updateuser.php on line 22
+[26-Apr-2023 06:29:08 America/Chicago] PHP Warning:  Undefined array key "Institute" in /home1/educationve/public_html/backend/updateuser.php on line 23
+[26-Apr-2023 06:30:44 America/Chicago] PHP Warning:  Undefined array key "Institute" in /home1/educationve/public_html/backend/updateuser.php on line 23
+[26-Apr-2023 06:31:15 America/Chicago] PHP Warning:  Undefined array key "Institute" in /home1/educationve/public_html/backend/updateuser.php on line 23
+[26-Apr-2023 06:31:22 America/Chicago] PHP Warning:  Undefined array key "Institute" in /home1/educationve/public_html/backend/updateuser.php on line 23
+[26-Apr-2023 06:32:05 America/Chicago] PHP Warning:  Undefined array key "Institute" in /home1/educationve/public_html/backend/updateuser.php on line 23
+[26-Apr-2023 06:58:00 America/Chicago] PHP Warning:  Undefined array key "components_id" in /home1/educationve/public_html/backend/updateprogramcomponents.php on line 6
+[26-Apr-2023 06:58:23 America/Chicago] PHP Warning:  Undefined array key "components_id" in /home1/educationve/public_html/backend/updateprogramcomponents.php on line 6
+[26-Apr-2023 06:59:39 America/Chicago] PHP Warning:  Undefined array key "components_id" in /home1/educationve/public_html/backend/updateprogramcomponents.php on line 6
+[26-Apr-2023 06:59:44 America/Chicago] PHP Warning:  Undefined array key "components_id" in /home1/educationve/public_html/backend/updateprogramcomponents.php on line 6
+[26-Apr-2023 06:59:59 America/Chicago] PHP Warning:  Undefined array key "components_id" in /home1/educationve/public_html/backend/updateprogramcomponents.php on line 6
+[26-Apr-2023 07:00:35 America/Chicago] PHP Warning:  Undefined array key "components_id" in /home1/educationve/public_html/backend/updateprogramcomponents.php on line 6
+[26-Apr-2023 07:00:35 America/Chicago] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home1/educationve/public_html/backend/config.php:15) in /home1/educationve/public_html/backend/updateprogramcomponents.php on line 19
+[26-Apr-2023 07:01:28 America/Chicago] PHP Warning:  Undefined array key "components_id" in /home1/educationve/public_html/backend/updateprogramcomponents.php on line 6
+[26-Apr-2023 07:04:44 America/Chicago] PHP Warning:  Undefined array key "components_id" in /home1/educationve/public_html/backend/updateprogramcomponents.php on line 6
+[26-Apr-2023 07:05:10 America/Chicago] PHP Warning:  Undefined array key "components_id" in /home1/educationve/public_html/backend/updateprogramcomponents.php on line 6
+[26-Apr-2023 07:05:14 America/Chicago] PHP Warning:  Undefined array key "components_id" in /home1/educationve/public_html/backend/updateprogramcomponents.php on line 6
+[26-Apr-2023 07:05:33 America/Chicago] PHP Warning:  Undefined array key "components_id" in /home1/educationve/public_html/backend/updateprogramcomponents.php on line 6
+[26-Apr-2023 07:07:03 America/Chicago] PHP Warning:  Undefined array key "components_id" in /home1/educationve/public_html/backend/updateprogramcomponents.php on line 6
+[26-Apr-2023 07:11:36 America/Chicago] PHP Warning:  Undefined array key "components_id" in /home1/educationve/public_html/backend/updateprogramcomponents.php on line 6
+[26-Apr-2023 07:12:48 America/Chicago] PHP Warning:  Undefined array key "components_id" in /home1/educationve/public_html/backend/updateprogramcomponents.php on line 6
+[26-Apr-2023 07:12:53 America/Chicago] PHP Warning:  Undefined array key "components_id" in /home1/educationve/public_html/backend/updateprogramcomponents.php on line 6
+[26-Apr-2023 07:23:23 America/Chicago] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home1/educationve/public_html/backend/config.php:15) in /home1/educationve/public_html/backend/deleteprogramcomponents.php on line 13
+[26-Apr-2023 07:37:58 America/Chicago] PHP Warning:  Undefined array key "Program_Duration" in /home1/educationve/public_html/backend/add_program.php on line 8
+[26-Apr-2023 07:37:58 America/Chicago] PHP Warning:  Undefined array key "Program_Code" in /home1/educationve/public_html/backend/add_program.php on line 9
+[26-Apr-2023 07:37:58 America/Chicago] PHP Warning:  Undefined array key "Program_Fee" in /home1/educationve/public_html/backend/add_program.php on line 11
+[26-Apr-2023 07:37:58 America/Chicago] PHP Warning:  Undefined array key "Program_status" in /home1/educationve/public_html/backend/add_program.php on line 12
+[27-Apr-2023 05:03:30 America/Chicago] PHP Warning:  Undefined array key "institute_id" in /home1/educationve/public_html/backend/addsection.php on line 7
+[27-Apr-2023 05:03:30 America/Chicago] PHP Warning:  Undefined array key "program_id" in /home1/educationve/public_html/backend/addsection.php on line 8
+[27-Apr-2023 05:03:30 America/Chicago] PHP Warning:  Undefined array key "Components_id" in /home1/educationve/public_html/backend/addsection.php on line 9
+[27-Apr-2023 05:03:30 America/Chicago] PHP Warning:  Undefined array key "Subject_id" in /home1/educationve/public_html/backend/addsection.php on line 10
+[27-Apr-2023 05:03:30 America/Chicago] PHP Warning:  Undefined array key "Section_name" in /home1/educationve/public_html/backend/addsection.php on line 11
+[27-Apr-2023 05:03:30 America/Chicago] PHP Warning:  Undefined array key "Teacher_assign" in /home1/educationve/public_html/backend/addsection.php on line 12
+[27-Apr-2023 05:03:30 America/Chicago] PHP Warning:  Undefined array key "Notes" in /home1/educationve/public_html/backend/addsection.php on line 13
+[27-Apr-2023 05:03:30 America/Chicago] PHP Warning:  Undefined array key "Assignment" in /home1/educationve/public_html/backend/addsection.php on line 14
+[27-Apr-2023 05:03:30 America/Chicago] PHP Warning:  Undefined array key "Model_paper" in /home1/educationve/public_html/backend/addsection.php on line 15
+[27-Apr-2023 05:03:30 America/Chicago] PHP Warning:  Undefined array key "Past_paper" in /home1/educationve/public_html/backend/addsection.php on line 16
+[27-Apr-2023 05:03:30 America/Chicago] PHP Warning:  Undefined array key "Midterm_paper" in /home1/educationve/public_html/backend/addsection.php on line 17
+[27-Apr-2023 05:03:30 America/Chicago] PHP Warning:  Undefined array key "Final_paper" in /home1/educationve/public_html/backend/addsection.php on line 18
+[27-Apr-2023 05:03:30 America/Chicago] PHP Warning:  Undefined array key "Videos" in /home1/educationve/public_html/backend/addsection.php on line 19
+[27-Apr-2023 05:03:30 America/Chicago] PHP Warning:  Undefined array key "Quiz" in /home1/educationve/public_html/backend/addsection.php on line 20
+[27-Apr-2023 05:03:30 America/Chicago] PHP Warning:  Undefined array key "Lecture_start_time" in /home1/educationve/public_html/backend/addsection.php on line 21
+[27-Apr-2023 05:03:30 America/Chicago] PHP Warning:  Undefined array key "Lecture_end_time" in /home1/educationve/public_html/backend/addsection.php on line 22
+[27-Apr-2023 05:03:30 America/Chicago] PHP Warning:  Undefined array key "Lecture_day_MONDAY" in /home1/educationve/public_html/backend/addsection.php on line 23
+[27-Apr-2023 05:03:30 America/Chicago] PHP Warning:  Undefined array key "Lecture_day_TUESDAY" in /home1/educationve/public_html/backend/addsection.php on line 24
+[27-Apr-2023 05:03:30 America/Chicago] PHP Warning:  Undefined array key "Lecture_day_WEDNESDAY" in /home1/educationve/public_html/backend/addsection.php on line 25
+[27-Apr-2023 05:03:30 America/Chicago] PHP Warning:  Undefined array key "Lecture_day_THURSDAY" in /home1/educationve/public_html/backend/addsection.php on line 26
+[27-Apr-2023 05:03:30 America/Chicago] PHP Warning:  Undefined array key "Lecture_day_FRIDAY" in /home1/educationve/public_html/backend/addsection.php on line 27
+[27-Apr-2023 05:03:30 America/Chicago] PHP Warning:  Undefined array key "Lecture_day_SATURDAY" in /home1/educationve/public_html/backend/addsection.php on line 28
+[27-Apr-2023 05:03:30 America/Chicago] PHP Warning:  Undefined array key "Lecture_day_SUNDAY" in /home1/educationve/public_html/backend/addsection.php on line 29
+[27-Apr-2023 05:03:30 America/Chicago] PHP Warning:  Undefined array key "Teacher_asst_1" in /home1/educationve/public_html/backend/addsection.php on line 30
+[27-Apr-2023 05:03:30 America/Chicago] PHP Warning:  Undefined array key "Teacher_asst_2" in /home1/educationve/public_html/backend/addsection.php on line 31
+[27-Apr-2023 05:06:58 America/Chicago] PHP Fatal error:  Uncaught mysqli_sql_exception: Cannot add or update a child row: a foreign key constraint fails (`educatio_verse`.`user`, CONSTRAINT `jkdgkjdaf2342534` FOREIGN KEY (`stream_id`) REFERENCES `education_stream` (`stream_id`) ON DELETE CASCADE ON UPDATE CASCADE) in /home1/educationve/public_html/backend/adduser.php:29
+Stack trace:
+#0 /home1/educationve/public_html/backend/adduser.php(29): mysqli_query(Object(mysqli), 'INSERT INTO `us...')
+#1 {main}
+  thrown in /home1/educationve/public_html/backend/adduser.php on line 29
+[28-Apr-2023 04:28:21 America/Chicago] PHP Warning:  Undefined array key "program_id" in /home1/educationve/public_html/backend/updateprogram.php on line 9
+[28-Apr-2023 04:30:41 America/Chicago] PHP Warning:  Undefined array key "program_id" in /home1/educationve/public_html/backend/updateprogram.php on line 9
+[28-Apr-2023 04:30:50 America/Chicago] PHP Warning:  Undefined array key "program_id" in /home1/educationve/public_html/backend/updateprogram.php on line 9
+[28-Apr-2023 04:30:57 America/Chicago] PHP Warning:  Undefined array key "program_id" in /home1/educationve/public_html/backend/updateprogram.php on line 9
+[28-Apr-2023 04:31:07 America/Chicago] PHP Warning:  Undefined array key "program_id" in /home1/educationve/public_html/backend/updateprogram.php on line 9
+[28-Apr-2023 04:32:08 America/Chicago] PHP Warning:  Undefined array key "program_id" in /home1/educationve/public_html/backend/updateprogram.php on line 9
+[28-Apr-2023 04:34:43 America/Chicago] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home1/educationve/public_html/backend/config.php:15) in /home1/educationve/public_html/backend/updateprogram.php on line 25
+[28-Apr-2023 04:36:30 America/Chicago] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home1/educationve/public_html/backend/config.php:15) in /home1/educationve/public_html/backend/updateprogram.php on line 23
+[28-Apr-2023 04:36:56 America/Chicago] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home1/educationve/public_html/backend/config.php:15) in /home1/educationve/public_html/backend/updateprogram.php on line 23
+[28-Apr-2023 04:58:06 America/Chicago] PHP Fatal error:  Uncaught ArgumentCountError: var_dump() expects at least 1 argument, 0 given in /home1/educationve/public_html/backend/deleteprogram.php:26
+Stack trace:
+#0 /home1/educationve/public_html/backend/deleteprogram.php(26): var_dump()
+#1 {main}
+  thrown in /home1/educationve/public_html/backend/deleteprogram.php on line 26
+[28-Apr-2023 04:59:38 America/Chicago] PHP Warning:  Undefined array key "institute_id" in /home1/educationve/public_html/backend/addsection.php on line 7
+[28-Apr-2023 04:59:38 America/Chicago] PHP Warning:  Undefined array key "program_id" in /home1/educationve/public_html/backend/addsection.php on line 8
+[28-Apr-2023 04:59:38 America/Chicago] PHP Warning:  Undefined array key "Components_id" in /home1/educationve/public_html/backend/addsection.php on line 9
+[28-Apr-2023 04:59:38 America/Chicago] PHP Warning:  Undefined array key "Subject_id" in /home1/educationve/public_html/backend/addsection.php on line 10
+[28-Apr-2023 04:59:38 America/Chicago] PHP Warning:  Undefined array key "Section_name" in /home1/educationve/public_html/backend/addsection.php on line 11
+[28-Apr-2023 04:59:38 America/Chicago] PHP Warning:  Undefined array key "Teacher_assign" in /home1/educationve/public_html/backend/addsection.php on line 12
+[28-Apr-2023 04:59:38 America/Chicago] PHP Warning:  Undefined array key "Notes" in /home1/educationve/public_html/backend/addsection.php on line 13
+[28-Apr-2023 04:59:38 America/Chicago] PHP Warning:  Undefined array key "Assignment" in /home1/educationve/public_html/backend/addsection.php on line 14
+[28-Apr-2023 04:59:38 America/Chicago] PHP Warning:  Undefined array key "Model_paper" in /home1/educationve/public_html/backend/addsection.php on line 15
+[28-Apr-2023 04:59:38 America/Chicago] PHP Warning:  Undefined array key "Past_paper" in /home1/educationve/public_html/backend/addsection.php on line 16
+[28-Apr-2023 04:59:38 America/Chicago] PHP Warning:  Undefined array key "Midterm_paper" in /home1/educationve/public_html/backend/addsection.php on line 17
+[28-Apr-2023 04:59:38 America/Chicago] PHP Warning:  Undefined array key "Final_paper" in /home1/educationve/public_html/backend/addsection.php on line 18
+[28-Apr-2023 04:59:38 America/Chicago] PHP Warning:  Undefined array key "Videos" in /home1/educationve/public_html/backend/addsection.php on line 19
+[28-Apr-2023 04:59:38 America/Chicago] PHP Warning:  Undefined array key "Quiz" in /home1/educationve/public_html/backend/addsection.php on line 20
+[28-Apr-2023 04:59:38 America/Chicago] PHP Warning:  Undefined array key "Lecture_start_time" in /home1/educationve/public_html/backend/addsection.php on line 21
+[28-Apr-2023 04:59:38 America/Chicago] PHP Warning:  Undefined array key "Lecture_end_time" in /home1/educationve/public_html/backend/addsection.php on line 22
+[28-Apr-2023 04:59:38 America/Chicago] PHP Warning:  Undefined array key "Lecture_day_MONDAY" in /home1/educationve/public_html/backend/addsection.php on line 23
+[28-Apr-2023 04:59:38 America/Chicago] PHP Warning:  Undefined array key "Lecture_day_TUESDAY" in /home1/educationve/public_html/backend/addsection.php on line 24
+[28-Apr-2023 04:59:38 America/Chicago] PHP Warning:  Undefined array key "Lecture_day_WEDNESDAY" in /home1/educationve/public_html/backend/addsection.php on line 25
+[28-Apr-2023 04:59:38 America/Chicago] PHP Warning:  Undefined array key "Lecture_day_THURSDAY" in /home1/educationve/public_html/backend/addsection.php on line 26
+[28-Apr-2023 04:59:38 America/Chicago] PHP Warning:  Undefined array key "Lecture_day_FRIDAY" in /home1/educationve/public_html/backend/addsection.php on line 27
+[28-Apr-2023 04:59:38 America/Chicago] PHP Warning:  Undefined array key "Lecture_day_SATURDAY" in /home1/educationve/public_html/backend/addsection.php on line 28
+[28-Apr-2023 04:59:38 America/Chicago] PHP Warning:  Undefined array key "Lecture_day_SUNDAY" in /home1/educationve/public_html/backend/addsection.php on line 29
+[28-Apr-2023 04:59:38 America/Chicago] PHP Warning:  Undefined array key "Teacher_asst_1" in /home1/educationve/public_html/backend/addsection.php on line 30
+[28-Apr-2023 04:59:38 America/Chicago] PHP Warning:  Undefined array key "Teacher_asst_2" in /home1/educationve/public_html/backend/addsection.php on line 31
+[28-Apr-2023 05:09:10 America/Chicago] PHP Warning:  Undefined array key "institute_id" in /home1/educationve/public_html/backend/addsection.php on line 10
+[28-Apr-2023 05:09:10 America/Chicago] PHP Warning:  Undefined array key "program_id" in /home1/educationve/public_html/backend/addsection.php on line 11
+[28-Apr-2023 05:09:10 America/Chicago] PHP Warning:  Undefined array key "Components_id" in /home1/educationve/public_html/backend/addsection.php on line 12
+[28-Apr-2023 05:09:10 America/Chicago] PHP Warning:  Undefined array key "Section_name" in /home1/educationve/public_html/backend/addsection.php on line 13
+[28-Apr-2023 05:09:10 America/Chicago] PHP Warning:  Undefined array key "Teacher_assign" in /home1/educationve/public_html/backend/addsection.php on line 14
+[28-Apr-2023 05:10:53 America/Chicago] PHP Warning:  Undefined array key "Components_id" in /home1/educationve/public_html/backend/addsection.php on line 13
+[28-Apr-2023 05:35:31 America/Chicago] PHP Warning:  Undefined array key "Components_id" in /home1/educationve/public_html/backend/addsection.php on line 13
+[28-Apr-2023 05:35:49 America/Chicago] PHP Warning:  Undefined array key "Components_id" in /home1/educationve/public_html/backend/addsection.php on line 13
+[28-Apr-2023 05:35:49 America/Chicago] PHP Fatal error:  Uncaught mysqli_sql_exception: Cannot add or update a child row: a foreign key constraint fails (`educatio_verse`.`section`, CONSTRAINT `sectionprogramcomponentid` FOREIGN KEY (`component_id`) REFERENCES `program_components` (`components_id`) ON DELETE CASCADE ON UPDATE CASCADE) in /home1/educationve/public_html/backend/addsection.php:42
+Stack trace:
+#0 /home1/educationve/public_html/backend/addsection.php(42): mysqli_query(Object(mysqli), 'INSERT INTO `se...')
+#1 {main}
+  thrown in /home1/educationve/public_html/backend/addsection.php on line 42
+[28-Apr-2023 05:36:58 America/Chicago] PHP Warning:  Undefined array key "Components_id" in /home1/educationve/public_html/backend/addsection.php on line 13
+[28-Apr-2023 05:36:58 America/Chicago] PHP Fatal error:  Uncaught mysqli_sql_exception: Cannot add or update a child row: a foreign key constraint fails (`educatio_verse`.`section`, CONSTRAINT `sectionprogramcomponentid` FOREIGN KEY (`component_id`) REFERENCES `program_components` (`components_id`) ON DELETE CASCADE ON UPDATE CASCADE) in /home1/educationve/public_html/backend/addsection.php:42
+Stack trace:
+#0 /home1/educationve/public_html/backend/addsection.php(42): mysqli_query(Object(mysqli), 'INSERT INTO `se...')
+#1 {main}
+  thrown in /home1/educationve/public_html/backend/addsection.php on line 42
+[28-Apr-2023 05:37:06 America/Chicago] PHP Warning:  Undefined array key "Components_id" in /home1/educationve/public_html/backend/addsection.php on line 13
+[28-Apr-2023 05:37:06 America/Chicago] PHP Fatal error:  Uncaught mysqli_sql_exception: Cannot add or update a child row: a foreign key constraint fails (`educatio_verse`.`section`, CONSTRAINT `sectionstreamid` FOREIGN KEY (`stream_id`) REFERENCES `education_stream` (`stream_id`) ON DELETE CASCADE ON UPDATE CASCADE) in /home1/educationve/public_html/backend/addsection.php:42
+Stack trace:
+#0 /home1/educationve/public_html/backend/addsection.php(42): mysqli_query(Object(mysqli), 'INSERT INTO `se...')
+#1 {main}
+  thrown in /home1/educationve/public_html/backend/addsection.php on line 42
+[28-Apr-2023 05:37:37 America/Chicago] PHP Warning:  Undefined array key "Components_id" in /home1/educationve/public_html/backend/addsection.php on line 13
+[28-Apr-2023 05:37:37 America/Chicago] PHP Fatal error:  Uncaught mysqli_sql_exception: Cannot add or update a child row: a foreign key constraint fails (`educatio_verse`.`section`, CONSTRAINT `sectionstreamid` FOREIGN KEY (`stream_id`) REFERENCES `education_stream` (`stream_id`) ON DELETE CASCADE ON UPDATE CASCADE) in /home1/educationve/public_html/backend/addsection.php:42
+Stack trace:
+#0 /home1/educationve/public_html/backend/addsection.php(42): mysqli_query(Object(mysqli), 'INSERT INTO `se...')
+#1 {main}
+  thrown in /home1/educationve/public_html/backend/addsection.php on line 42
+[28-Apr-2023 05:37:39 America/Chicago] PHP Warning:  Undefined array key "Components_id" in /home1/educationve/public_html/backend/addsection.php on line 13
+[28-Apr-2023 05:37:39 America/Chicago] PHP Fatal error:  Uncaught mysqli_sql_exception: Cannot add or update a child row: a foreign key constraint fails (`educatio_verse`.`section`, CONSTRAINT `sectionstreamid` FOREIGN KEY (`stream_id`) REFERENCES `education_stream` (`stream_id`) ON DELETE CASCADE ON UPDATE CASCADE) in /home1/educationve/public_html/backend/addsection.php:42
+Stack trace:
+#0 /home1/educationve/public_html/backend/addsection.php(42): mysqli_query(Object(mysqli), 'INSERT INTO `se...')
+#1 {main}
+  thrown in /home1/educationve/public_html/backend/addsection.php on line 42
+[28-Apr-2023 05:38:31 America/Chicago] PHP Warning:  Undefined array key "Components_id" in /home1/educationve/public_html/backend/addsection.php on line 13
+[28-Apr-2023 05:39:11 America/Chicago] PHP Warning:  Undefined array key "Components_id" in /home1/educationve/public_html/backend/addsection.php on line 13
+[28-Apr-2023 05:39:48 America/Chicago] PHP Warning:  Undefined array key "Components_id" in /home1/educationve/public_html/backend/addsection.php on line 13
+[28-Apr-2023 05:58:00 America/Chicago] PHP Warning:  Undefined array key "Components_id" in /home1/educationve/public_html/backend/addsection.php on line 13
+[28-Apr-2023 05:59:53 America/Chicago] PHP Warning:  Undefined array key "Components_id" in /home1/educationve/public_html/backend/addsection.php on line 13
+[28-Apr-2023 06:03:41 America/Chicago] PHP Warning:  Undefined array key "Components_id" in /home1/educationve/public_html/backend/addsection.php on line 13
+[28-Apr-2023 06:03:54 America/Chicago] PHP Warning:  Undefined array key "Components_id" in /home1/educationve/public_html/backend/addsection.php on line 13
+[28-Apr-2023 06:04:12 America/Chicago] PHP Warning:  Undefined array key "Components_id" in /home1/educationve/public_html/backend/addsection.php on line 13
+[28-Apr-2023 06:36:42 America/Chicago] PHP Fatal error:  Uncaught mysqli_sql_exception: Cannot add or update a child row: a foreign key constraint fails (`educatio_verse`.`section`, CONSTRAINT `sectioninstituteid` FOREIGN KEY (`institute_id`) REFERENCES `education_institute` (`institute_id`) ON DELETE CASCADE ON UPDATE CASCADE) in /home1/educationve/public_html/backend/addsection.php:42
+Stack trace:
+#0 /home1/educationve/public_html/backend/addsection.php(42): mysqli_query(Object(mysqli), 'INSERT INTO `se...')
+#1 {main}
+  thrown in /home1/educationve/public_html/backend/addsection.php on line 42
+[02-May-2023 04:29:36 America/Chicago] PHP Fatal error:  Uncaught mysqli_sql_exception: Duplicate entry 'abc@gmail.com' for key 'user_email' in /home1/educationve/public_html/backend/adduser.php:29
+Stack trace:
+#0 /home1/educationve/public_html/backend/adduser.php(29): mysqli_query(Object(mysqli), 'INSERT INTO `us...')
+#1 {main}
+  thrown in /home1/educationve/public_html/backend/adduser.php on line 29
+[02-May-2023 04:30:02 America/Chicago] PHP Fatal error:  Uncaught mysqli_sql_exception: Duplicate entry 'abc@gmail.com' for key 'user_email' in /home1/educationve/public_html/backend/adduser.php:29
+Stack trace:
+#0 /home1/educationve/public_html/backend/adduser.php(29): mysqli_query(Object(mysqli), 'INSERT INTO `us...')
+#1 {main}
+  thrown in /home1/educationve/public_html/backend/adduser.php on line 29
+[02-May-2023 04:38:59 America/Chicago] PHP Fatal error:  Uncaught mysqli_sql_exception: Duplicate entry 'abc@gmail.com' for key 'user_email' in /home1/educationve/public_html/backend/adduser.php:29
+Stack trace:
+#0 /home1/educationve/public_html/backend/adduser.php(29): mysqli_query(Object(mysqli), 'INSERT INTO `us...')
+#1 {main}
+  thrown in /home1/educationve/public_html/backend/adduser.php on line 29
+[02-May-2023 04:49:24 America/Chicago] PHP Fatal error:  Uncaught mysqli_sql_exception: Duplicate entry 'abc@gmail.com' for key 'user_email' in /home1/educationve/public_html/backend/adduser.php:29
+Stack trace:
+#0 /home1/educationve/public_html/backend/adduser.php(29): mysqli_query(Object(mysqli), 'INSERT INTO `us...')
+#1 {main}
+  thrown in /home1/educationve/public_html/backend/adduser.php on line 29
+[02-May-2023 04:53:21 America/Chicago] PHP Fatal error:  Uncaught mysqli_sql_exception: Duplicate entry 'abc@gmail.com' for key 'user_email' in /home1/educationve/public_html/backend/adduser.php:29
+Stack trace:
+#0 /home1/educationve/public_html/backend/adduser.php(29): mysqli_query(Object(mysqli), 'INSERT INTO `us...')
+#1 {main}
+  thrown in /home1/educationve/public_html/backend/adduser.php on line 29
+[02-May-2023 04:54:00 America/Chicago] PHP Fatal error:  Uncaught mysqli_sql_exception: Duplicate entry 'abc@gmail.com' for key 'user_email' in /home1/educationve/public_html/backend/adduser.php:29
+Stack trace:
+#0 /home1/educationve/public_html/backend/adduser.php(29): mysqli_query(Object(mysqli), 'INSERT INTO `us...')
+#1 {main}
+  thrown in /home1/educationve/public_html/backend/adduser.php on line 29
+[02-May-2023 04:54:32 America/Chicago] PHP Fatal error:  Uncaught mysqli_sql_exception: Duplicate entry 'abc@gmail.com' for key 'user_email' in /home1/educationve/public_html/backend/adduser.php:29
+Stack trace:
+#0 /home1/educationve/public_html/backend/adduser.php(29): mysqli_query(Object(mysqli), 'INSERT INTO `us...')
+#1 {main}
+  thrown in /home1/educationve/public_html/backend/adduser.php on line 29
+[02-May-2023 04:56:26 America/Chicago] PHP Fatal error:  Uncaught mysqli_sql_exception: Duplicate entry 'abc@gmail.com' for key 'user_email' in /home1/educationve/public_html/backend/adduser.php:29
+Stack trace:
+#0 /home1/educationve/public_html/backend/adduser.php(29): mysqli_query(Object(mysqli), 'INSERT INTO `us...')
+#1 {main}
+  thrown in /home1/educationve/public_html/backend/adduser.php on line 29
+[02-May-2023 04:57:01 America/Chicago] PHP Fatal error:  Uncaught mysqli_sql_exception: Duplicate entry 'abc@gmail.com' for key 'user_email' in /home1/educationve/public_html/backend/adduser.php:29
+Stack trace:
+#0 /home1/educationve/public_html/backend/adduser.php(29): mysqli_query(Object(mysqli), 'INSERT INTO `us...')
+#1 {main}
+  thrown in /home1/educationve/public_html/backend/adduser.php on line 29
+[02-May-2023 04:58:16 America/Chicago] PHP Fatal error:  Uncaught mysqli_sql_exception: Duplicate entry 'abc@gmail.com' for key 'user_email' in /home1/educationve/public_html/backend/adduser.php:29
+Stack trace:
+#0 /home1/educationve/public_html/backend/adduser.php(29): mysqli_query(Object(mysqli), 'INSERT INTO `us...')
+#1 {main}
+  thrown in /home1/educationve/public_html/backend/adduser.php on line 29
+[02-May-2023 05:03:14 America/Chicago] PHP Fatal error:  Uncaught mysqli_sql_exception: Duplicate entry 'abc@gmail.com' for key 'user_email' in /home1/educationve/public_html/backend/adduser.php:29
+Stack trace:
+#0 /home1/educationve/public_html/backend/adduser.php(29): mysqli_query(Object(mysqli), 'INSERT INTO `us...')
+#1 {main}
+  thrown in /home1/educationve/public_html/backend/adduser.php on line 29
+[02-May-2023 05:03:26 America/Chicago] PHP Fatal error:  Uncaught mysqli_sql_exception: Duplicate entry 'abc@gmail.com' for key 'user_email' in /home1/educationve/public_html/backend/adduser.php:29
+Stack trace:
+#0 /home1/educationve/public_html/backend/adduser.php(29): mysqli_query(Object(mysqli), 'INSERT INTO `us...')
+#1 {main}
+  thrown in /home1/educationve/public_html/backend/adduser.php on line 29
+[02-May-2023 05:06:14 America/Chicago] PHP Fatal error:  Uncaught mysqli_sql_exception: Duplicate entry 'abc@gmail.com' for key 'user_email' in /home1/educationve/public_html/backend/adduser.php:29
+Stack trace:
+#0 /home1/educationve/public_html/backend/adduser.php(29): mysqli_query(Object(mysqli), 'INSERT INTO `us...')
+#1 {main}
+  thrown in /home1/educationve/public_html/backend/adduser.php on line 29
+[02-May-2023 05:07:43 America/Chicago] PHP Fatal error:  Uncaught mysqli_sql_exception: Duplicate entry 'abc@gmail.com' for key 'user_email' in /home1/educationve/public_html/backend/adduser.php:29
+Stack trace:
+#0 /home1/educationve/public_html/backend/adduser.php(29): mysqli_query(Object(mysqli), 'INSERT INTO `us...')
+#1 {main}
+  thrown in /home1/educationve/public_html/backend/adduser.php on line 29
+[02-May-2023 05:23:46 America/Chicago] PHP Fatal error:  Uncaught mysqli_sql_exception: Cannot add or update a child row: a foreign key constraint fails (`educatio_verse`.`user`, CONSTRAINT `jkdgkjdaf2342534` FOREIGN KEY (`stream_id`) REFERENCES `education_stream` (`stream_id`) ON DELETE CASCADE ON UPDATE CASCADE) in /home1/educationve/public_html/backend/adduser.php:29
+Stack trace:
+#0 /home1/educationve/public_html/backend/adduser.php(29): mysqli_query(Object(mysqli), 'INSERT INTO `us...')
+#1 {main}
+  thrown in /home1/educationve/public_html/backend/adduser.php on line 29
+[02-May-2023 05:27:26 America/Chicago] PHP Fatal error:  Uncaught mysqli_sql_exception: Cannot add or update a child row: a foreign key constraint fails (`educatio_verse`.`user`, CONSTRAINT `jkdgkjdaf2342534` FOREIGN KEY (`stream_id`) REFERENCES `education_stream` (`stream_id`) ON DELETE CASCADE ON UPDATE CASCADE) in /home1/educationve/public_html/backend/adduser.php:29
+Stack trace:
+#0 /home1/educationve/public_html/backend/adduser.php(29): mysqli_query(Object(mysqli), 'INSERT INTO `us...')
+#1 {main}
+  thrown in /home1/educationve/public_html/backend/adduser.php on line 29
+[02-May-2023 05:35:24 America/Chicago] PHP Fatal error:  Uncaught mysqli_sql_exception: Cannot add or update a child row: a foreign key constraint fails (`educatio_verse`.`user`, CONSTRAINT `jkdgkjdaf2342534` FOREIGN KEY (`stream_id`) REFERENCES `education_stream` (`stream_id`) ON DELETE CASCADE ON UPDATE CASCADE) in /home1/educationve/public_html/backend/adduser.php:29
+Stack trace:
+#0 /home1/educationve/public_html/backend/adduser.php(29): mysqli_query(Object(mysqli), 'INSERT INTO `us...')
+#1 {main}
+  thrown in /home1/educationve/public_html/backend/adduser.php on line 29
+[02-May-2023 05:36:32 America/Chicago] PHP Fatal error:  Uncaught mysqli_sql_exception: Cannot add or update a child row: a foreign key constraint fails (`educatio_verse`.`user`, CONSTRAINT `jkdgkjdaf2342534` FOREIGN KEY (`stream_id`) REFERENCES `education_stream` (`stream_id`) ON DELETE CASCADE ON UPDATE CASCADE) in /home1/educationve/public_html/backend/adduser.php:29
+Stack trace:
+#0 /home1/educationve/public_html/backend/adduser.php(29): mysqli_query(Object(mysqli), 'INSERT INTO `us...')
+#1 {main}
+  thrown in /home1/educationve/public_html/backend/adduser.php on line 29
+[02-May-2023 05:39:52 America/Chicago] PHP Fatal error:  Uncaught mysqli_sql_exception: Duplicate entry 'abc@gmail.com' for key 'user_email' in /home1/educationve/public_html/backend/adduser.php:29
+Stack trace:
+#0 /home1/educationve/public_html/backend/adduser.php(29): mysqli_query(Object(mysqli), 'INSERT INTO `us...')
+#1 {main}
+  thrown in /home1/educationve/public_html/backend/adduser.php on line 29
+[02-May-2023 05:42:32 America/Chicago] PHP Fatal error:  Uncaught mysqli_sql_exception: Duplicate entry 'abc@gmail.com' for key 'user_email' in /home1/educationve/public_html/backend/adduser.php:29
+Stack trace:
+#0 /home1/educationve/public_html/backend/adduser.php(29): mysqli_query(Object(mysqli), 'INSERT INTO `us...')
+#1 {main}
+  thrown in /home1/educationve/public_html/backend/adduser.php on line 29
+[02-May-2023 05:42:43 America/Chicago] PHP Fatal error:  Uncaught mysqli_sql_exception: Duplicate entry 'abc@gmail.com' for key 'user_email' in /home1/educationve/public_html/backend/adduser.php:29
+Stack trace:
+#0 /home1/educationve/public_html/backend/adduser.php(29): mysqli_query(Object(mysqli), 'INSERT INTO `us...')
+#1 {main}
+  thrown in /home1/educationve/public_html/backend/adduser.php on line 29
+[02-May-2023 05:43:08 America/Chicago] PHP Fatal error:  Uncaught mysqli_sql_exception: Duplicate entry 'abc@gmail.com' for key 'user_email' in /home1/educationve/public_html/backend/adduser.php:29
+Stack trace:
+#0 /home1/educationve/public_html/backend/adduser.php(29): mysqli_query(Object(mysqli), 'INSERT INTO `us...')
+#1 {main}
+  thrown in /home1/educationve/public_html/backend/adduser.php on line 29
+[02-May-2023 05:58:39 America/Chicago] PHP Fatal error:  Uncaught mysqli_sql_exception: Duplicate entry 'abc@gmail.com' for key 'user_email' in /home1/educationve/public_html/backend/adduser.php:29
+Stack trace:
+#0 /home1/educationve/public_html/backend/adduser.php(29): mysqli_query(Object(mysqli), 'INSERT INTO `us...')
+#1 {main}
+  thrown in /home1/educationve/public_html/backend/adduser.php on line 29
+[02-May-2023 06:00:15 America/Chicago] PHP Fatal error:  Uncaught mysqli_sql_exception: Cannot add or update a child row: a foreign key constraint fails (`educatio_verse`.`user`, CONSTRAINT `jkdgkjdaf2342534` FOREIGN KEY (`stream_id`) REFERENCES `education_stream` (`stream_id`) ON DELETE CASCADE ON UPDATE CASCADE) in /home1/educationve/public_html/backend/adduser.php:29
+Stack trace:
+#0 /home1/educationve/public_html/backend/adduser.php(29): mysqli_query(Object(mysqli), 'INSERT INTO `us...')
+#1 {main}
+  thrown in /home1/educationve/public_html/backend/adduser.php on line 29
+[02-May-2023 06:02:41 America/Chicago] PHP Fatal error:  Uncaught mysqli_sql_exception: Cannot add or update a child row: a foreign key constraint fails (`educatio_verse`.`user`, CONSTRAINT `jkdgkjdaf2342534` FOREIGN KEY (`stream_id`) REFERENCES `education_stream` (`stream_id`) ON DELETE CASCADE ON UPDATE CASCADE) in /home1/educationve/public_html/backend/adduser.php:29
+Stack trace:
+#0 /home1/educationve/public_html/backend/adduser.php(29): mysqli_query(Object(mysqli), 'INSERT INTO `us...')
+#1 {main}
+  thrown in /home1/educationve/public_html/backend/adduser.php on line 29
+[02-May-2023 06:08:29 America/Chicago] PHP Fatal error:  Uncaught mysqli_sql_exception: Duplicate entry 'abc@gmail.com' for key 'user_email' in /home1/educationve/public_html/backend/adduser.php:29
+Stack trace:
+#0 /home1/educationve/public_html/backend/adduser.php(29): mysqli_query(Object(mysqli), 'INSERT INTO `us...')
+#1 {main}
+  thrown in /home1/educationve/public_html/backend/adduser.php on line 29
+[02-May-2023 06:16:15 America/Chicago] PHP Fatal error:  Uncaught mysqli_sql_exception: Duplicate entry 'farhan45zxzx@gmail.com' for key 'user_email' in /home1/educationve/public_html/backend/adduser.php:28
+Stack trace:
+#0 /home1/educationve/public_html/backend/adduser.php(28): mysqli_query(Object(mysqli), 'INSERT INTO `us...')
+#1 {main}
+  thrown in /home1/educationve/public_html/backend/adduser.php on line 28
+[02-May-2023 06:57:47 America/Chicago] PHP Warning:  Undefined array key "section_id" in /home1/educationve/public_html/backend/updatesectionupdate.php on line 8
+[02-May-2023 06:57:47 America/Chicago] PHP Warning:  Undefined array key "Notes" in /home1/educationve/public_html/backend/updatesectionupdate.php on line 10
+[02-May-2023 06:57:47 America/Chicago] PHP Warning:  Undefined array key "Assignment" in /home1/educationve/public_html/backend/updatesectionupdate.php on line 11
+[02-May-2023 06:57:47 America/Chicago] PHP Warning:  Undefined array key "Model_paper" in /home1/educationve/public_html/backend/updatesectionupdate.php on line 12
+[02-May-2023 06:57:47 America/Chicago] PHP Warning:  Undefined array key "Past_paper" in /home1/educationve/public_html/backend/updatesectionupdate.php on line 13
+[02-May-2023 06:57:47 America/Chicago] PHP Warning:  Undefined array key "Midterm_paper" in /home1/educationve/public_html/backend/updatesectionupdate.php on line 14
+[02-May-2023 06:57:47 America/Chicago] PHP Warning:  Undefined array key "Final_paper" in /home1/educationve/public_html/backend/updatesectionupdate.php on line 15
+[02-May-2023 06:57:47 America/Chicago] PHP Warning:  Undefined array key "Quiz" in /home1/educationve/public_html/backend/updatesectionupdate.php on line 17
+[02-May-2023 06:57:47 America/Chicago] PHP Warning:  Undefined array key "T_assistant1" in /home1/educationve/public_html/backend/updatesectionupdate.php on line 27
+[02-May-2023 07:16:27 America/Chicago] PHP Fatal error:  Uncaught mysqli_sql_exception: Duplicate entry 'abc@gmail.com' for key 'user_email' in /home1/educationve/public_html/backend/adduser.php:28
+Stack trace:
+#0 /home1/educationve/public_html/backend/adduser.php(28): mysqli_query(Object(mysqli), 'INSERT INTO `us...')
+#1 {main}
+  thrown in /home1/educationve/public_html/backend/adduser.php on line 28
+[02-May-2023 07:18:43 America/Chicago] PHP Fatal error:  Uncaught mysqli_sql_exception: Duplicate entry 'abc@gmail.com' for key 'user_email' in /home1/educationve/public_html/backend/adduser.php:28
+Stack trace:
+#0 /home1/educationve/public_html/backend/adduser.php(28): mysqli_query(Object(mysqli), 'INSERT INTO `us...')
+#1 {main}
+  thrown in /home1/educationve/public_html/backend/adduser.php on line 28
+[02-May-2023 07:34:11 America/Chicago] PHP Fatal error:  Uncaught mysqli_sql_exception: Duplicate entry 'qwe@gamil.com' for key 'user_email' in /home1/educationve/public_html/backend/adduser.php:28
+Stack trace:
+#0 /home1/educationve/public_html/backend/adduser.php(28): mysqli_query(Object(mysqli), 'INSERT INTO `us...')
+#1 {main}
+  thrown in /home1/educationve/public_html/backend/adduser.php on line 28
+[02-May-2023 07:35:30 America/Chicago] PHP Fatal error:  Uncaught mysqli_sql_exception: Duplicate entry 'qwe@gamil.com' for key 'user_email' in /home1/educationve/public_html/backend/adduser.php:28
+Stack trace:
+#0 /home1/educationve/public_html/backend/adduser.php(28): mysqli_query(Object(mysqli), 'INSERT INTO `us...')
+#1 {main}
+  thrown in /home1/educationve/public_html/backend/adduser.php on line 28
+[02-May-2023 07:36:16 America/Chicago] PHP Fatal error:  Uncaught mysqli_sql_exception: Duplicate entry 'qwe@gamil.com' for key 'user_email' in /home1/educationve/public_html/backend/adduser.php:28
+Stack trace:
+#0 /home1/educationve/public_html/backend/adduser.php(28): mysqli_query(Object(mysqli), 'INSERT INTO `us...')
+#1 {main}
+  thrown in /home1/educationve/public_html/backend/adduser.php on line 28
+[02-May-2023 07:36:41 America/Chicago] PHP Fatal error:  Uncaught mysqli_sql_exception: Duplicate entry 'qwe@gamil.com' for key 'user_email' in /home1/educationve/public_html/backend/adduser.php:28
+Stack trace:
+#0 /home1/educationve/public_html/backend/adduser.php(28): mysqli_query(Object(mysqli), 'INSERT INTO `us...')
+#1 {main}
+  thrown in /home1/educationve/public_html/backend/adduser.php on line 28
+[02-May-2023 07:39:08 America/Chicago] PHP Fatal error:  Uncaught mysqli_sql_exception: Duplicate entry 'qwe@gamil.com' for key 'user_email' in /home1/educationve/public_html/backend/adduser.php:28
+Stack trace:
+#0 /home1/educationve/public_html/backend/adduser.php(28): mysqli_query(Object(mysqli), 'INSERT INTO `us...')
+#1 {main}
+  thrown in /home1/educationve/public_html/backend/adduser.php on line 28
+[02-May-2023 07:41:13 America/Chicago] PHP Fatal error:  Uncaught mysqli_sql_exception: Duplicate entry 'abc@gmail.com' for key 'user_email' in /home1/educationve/public_html/backend/adduser.php:28
+Stack trace:
+#0 /home1/educationve/public_html/backend/adduser.php(28): mysqli_query(Object(mysqli), 'INSERT INTO `us...')
+#1 {main}
+  thrown in /home1/educationve/public_html/backend/adduser.php on line 28
+[02-May-2023 07:45:10 America/Chicago] PHP Fatal error:  Uncaught mysqli_sql_exception: Duplicate entry 'abc@gmail.com' for key 'user_email' in /home1/educationve/public_html/backend/adduser.php:28
+Stack trace:
+#0 /home1/educationve/public_html/backend/adduser.php(28): mysqli_query(Object(mysqli), 'INSERT INTO `us...')
+#1 {main}
+  thrown in /home1/educationve/public_html/backend/adduser.php on line 28
+[02-May-2023 07:45:22 America/Chicago] PHP Fatal error:  Uncaught mysqli_sql_exception: Duplicate entry 'abc@gmail.com' for key 'user_email' in /home1/educationve/public_html/backend/adduser.php:28
+Stack trace:
+#0 /home1/educationve/public_html/backend/adduser.php(28): mysqli_query(Object(mysqli), 'INSERT INTO `us...')
+#1 {main}
+  thrown in /home1/educationve/public_html/backend/adduser.php on line 28
+[03-May-2023 04:34:56 America/Chicago] PHP Warning:  Undefined array key "section_id" in /home1/educationve/public_html/backend/updatesectionupdate.php on line 8
+[03-May-2023 04:34:56 America/Chicago] PHP Warning:  Undefined array key "Notes" in /home1/educationve/public_html/backend/updatesectionupdate.php on line 10
+[03-May-2023 04:34:56 America/Chicago] PHP Warning:  Undefined array key "Assignment" in /home1/educationve/public_html/backend/updatesectionupdate.php on line 11
+[03-May-2023 04:34:56 America/Chicago] PHP Warning:  Undefined array key "Model_paper" in /home1/educationve/public_html/backend/updatesectionupdate.php on line 12
+[03-May-2023 04:34:56 America/Chicago] PHP Warning:  Undefined array key "Past_paper" in /home1/educationve/public_html/backend/updatesectionupdate.php on line 13
+[03-May-2023 04:34:56 America/Chicago] PHP Warning:  Undefined array key "Midterm_paper" in /home1/educationve/public_html/backend/updatesectionupdate.php on line 14
+[03-May-2023 04:34:56 America/Chicago] PHP Warning:  Undefined array key "Final_paper" in /home1/educationve/public_html/backend/updatesectionupdate.php on line 15
+[03-May-2023 04:34:56 America/Chicago] PHP Warning:  Undefined array key "Quiz" in /home1/educationve/public_html/backend/updatesectionupdate.php on line 17
+[03-May-2023 04:34:56 America/Chicago] PHP Warning:  Undefined array key "T_assistant1" in /home1/educationve/public_html/backend/updatesectionupdate.php on line 27
+[03-May-2023 04:34:56 America/Chicago] PHP Warning:  Undefined array key "Notes" in /home1/educationve/public_html/backend/updatesectionupdate.php on line 33
+[03-May-2023 04:34:56 America/Chicago] PHP Warning:  Trying to access array offset on value of type null in /home1/educationve/public_html/backend/updatesectionupdate.php on line 33
+[03-May-2023 04:34:56 America/Chicago] PHP Warning:  Undefined array key "Notes" in /home1/educationve/public_html/backend/updatesectionupdate.php on line 34
+[03-May-2023 04:34:56 America/Chicago] PHP Warning:  Trying to access array offset on value of type null in /home1/educationve/public_html/backend/updatesectionupdate.php on line 34
+[03-May-2023 04:34:56 America/Chicago] PHP Warning:  Undefined array key "Assignment" in /home1/educationve/public_html/backend/updatesectionupdate.php on line 37
+[03-May-2023 04:34:56 America/Chicago] PHP Warning:  Trying to access array offset on value of type null in /home1/educationve/public_html/backend/updatesectionupdate.php on line 37
+[03-May-2023 04:34:56 America/Chicago] PHP Warning:  Undefined array key "Assignment" in /home1/educationve/public_html/backend/updatesectionupdate.php on line 38
+[03-May-2023 04:34:56 America/Chicago] PHP Warning:  Trying to access array offset on value of type null in /home1/educationve/public_html/backend/updatesectionupdate.php on line 38
+[03-May-2023 04:34:56 America/Chicago] PHP Warning:  Undefined array key "Model_paper" in /home1/educationve/public_html/backend/updatesectionupdate.php on line 42
+[03-May-2023 04:34:56 America/Chicago] PHP Warning:  Trying to access array offset on value of type null in /home1/educationve/public_html/backend/updatesectionupdate.php on line 42
+[03-May-2023 04:34:56 America/Chicago] PHP Warning:  Undefined array key "Model_paper" in /home1/educationve/public_html/backend/updatesectionupdate.php on line 43
+[03-May-2023 04:34:56 America/Chicago] PHP Warning:  Trying to access array offset on value of type null in /home1/educationve/public_html/backend/updatesectionupdate.php on line 43
+[03-May-2023 04:34:56 America/Chicago] PHP Warning:  Undefined array key "Past_paper" in /home1/educationve/public_html/backend/updatesectionupdate.php on line 47
+[03-May-2023 04:34:56 America/Chicago] PHP Warning:  Trying to access array offset on value of type null in /home1/educationve/public_html/backend/updatesectionupdate.php on line 47
+[03-May-2023 04:34:56 America/Chicago] PHP Warning:  Undefined array key "Past_paper" in /home1/educationve/public_html/backend/updatesectionupdate.php on line 48
+[03-May-2023 04:34:56 America/Chicago] PHP Warning:  Trying to access array offset on value of type null in /home1/educationve/public_html/backend/updatesectionupdate.php on line 48
+[03-May-2023 04:34:56 America/Chicago] PHP Warning:  Undefined array key "Midterm" in /home1/educationve/public_html/backend/updatesectionupdate.php on line 52
+[03-May-2023 04:34:56 America/Chicago] PHP Warning:  Trying to access array offset on value of type null in /home1/educationve/public_html/backend/updatesectionupdate.php on line 52
+[03-May-2023 04:34:56 America/Chicago] PHP Warning:  Undefined array key "Midterm" in /home1/educationve/public_html/backend/updatesectionupdate.php on line 53
+[03-May-2023 04:34:56 America/Chicago] PHP Warning:  Trying to access array offset on value of type null in /home1/educationve/public_html/backend/updatesectionupdate.php on line 53
+[03-May-2023 04:34:56 America/Chicago] PHP Warning:  Undefined array key "Final" in /home1/educationve/public_html/backend/updatesectionupdate.php on line 56
+[03-May-2023 04:34:56 America/Chicago] PHP Warning:  Trying to access array offset on value of type null in /home1/educationve/public_html/backend/updatesectionupdate.php on line 56
+[03-May-2023 04:34:56 America/Chicago] PHP Warning:  Undefined array key "Final" in /home1/educationve/public_html/backend/updatesectionupdate.php on line 57
+[03-May-2023 04:34:56 America/Chicago] PHP Warning:  Trying to access array offset on value of type null in /home1/educationve/public_html/backend/updatesectionupdate.php on line 57
+[03-May-2023 04:34:56 America/Chicago] PHP Warning:  Undefined array key "Quiz" in /home1/educationve/public_html/backend/updatesectionupdate.php on line 60
+[03-May-2023 04:34:56 America/Chicago] PHP Warning:  Trying to access array offset on value of type null in /home1/educationve/public_html/backend/updatesectionupdate.php on line 60
+[03-May-2023 04:34:56 America/Chicago] PHP Warning:  Undefined array key "Quiz" in /home1/educationve/public_html/backend/updatesectionupdate.php on line 61
+[03-May-2023 04:34:56 America/Chicago] PHP Warning:  Trying to access array offset on value of type null in /home1/educationve/public_html/backend/updatesectionupdate.php on line 61
+[03-May-2023 04:35:18 America/Chicago] PHP Warning:  Undefined array key "section_id" in /home1/educationve/public_html/backend/updatesectionupdate.php on line 8
+[03-May-2023 04:35:18 America/Chicago] PHP Warning:  Undefined array key "Notes" in /home1/educationve/public_html/backend/updatesectionupdate.php on line 10
+[03-May-2023 04:35:18 America/Chicago] PHP Warning:  Undefined array key "Assignment" in /home1/educationve/public_html/backend/updatesectionupdate.php on line 11
+[03-May-2023 04:35:18 America/Chicago] PHP Warning:  Undefined array key "Model_paper" in /home1/educationve/public_html/backend/updatesectionupdate.php on line 12
+[03-May-2023 04:35:18 America/Chicago] PHP Warning:  Undefined array key "Past_paper" in /home1/educationve/public_html/backend/updatesectionupdate.php on line 13
+[03-May-2023 04:35:18 America/Chicago] PHP Warning:  Undefined array key "Midterm_paper" in /home1/educationve/public_html/backend/updatesectionupdate.php on line 14
+[03-May-2023 04:35:18 America/Chicago] PHP Warning:  Undefined array key "Final_paper" in /home1/educationve/public_html/backend/updatesectionupdate.php on line 15
+[03-May-2023 04:35:18 America/Chicago] PHP Warning:  Undefined array key "Quiz" in /home1/educationve/public_html/backend/updatesectionupdate.php on line 17
+[03-May-2023 04:35:18 America/Chicago] PHP Warning:  Undefined array key "T_assistant1" in /home1/educationve/public_html/backend/updatesectionupdate.php on line 27
+[03-May-2023 04:35:55 America/Chicago] PHP Warning:  Undefined array key "section_id" in /home1/educationve/public_html/backend/updatesectionupdate.php on line 8
+[03-May-2023 04:35:55 America/Chicago] PHP Warning:  Undefined array key "Notes" in /home1/educationve/public_html/backend/updatesectionupdate.php on line 10
+[03-May-2023 04:35:55 America/Chicago] PHP Warning:  Undefined array key "Assignment" in /home1/educationve/public_html/backend/updatesectionupdate.php on line 11
+[03-May-2023 04:35:55 America/Chicago] PHP Warning:  Undefined array key "Model_paper" in /home1/educationve/public_html/backend/updatesectionupdate.php on line 12
+[03-May-2023 04:35:55 America/Chicago] PHP Warning:  Undefined array key "Past_paper" in /home1/educationve/public_html/backend/updatesectionupdate.php on line 13
+[03-May-2023 04:35:55 America/Chicago] PHP Warning:  Undefined array key "Midterm_paper" in /home1/educationve/public_html/backend/updatesectionupdate.php on line 14
+[03-May-2023 04:35:55 America/Chicago] PHP Warning:  Undefined array key "Final_paper" in /home1/educationve/public_html/backend/updatesectionupdate.php on line 15
+[03-May-2023 04:35:55 America/Chicago] PHP Warning:  Undefined array key "Quiz" in /home1/educationve/public_html/backend/updatesectionupdate.php on line 17
+[03-May-2023 04:35:55 America/Chicago] PHP Warning:  Undefined array key "T_assistant1" in /home1/educationve/public_html/backend/updatesectionupdate.php on line 27
+[03-May-2023 04:36:17 America/Chicago] PHP Warning:  Undefined array key "section_id" in /home1/educationve/public_html/backend/updatesectionupdate.php on line 8
+[03-May-2023 04:36:17 America/Chicago] PHP Warning:  Undefined array key "Notes" in /home1/educationve/public_html/backend/updatesectionupdate.php on line 10
+[03-May-2023 04:36:17 America/Chicago] PHP Warning:  Undefined array key "Assignment" in /home1/educationve/public_html/backend/updatesectionupdate.php on line 11
+[03-May-2023 04:36:17 America/Chicago] PHP Warning:  Undefined array key "Model_paper" in /home1/educationve/public_html/backend/updatesectionupdate.php on line 12
+[03-May-2023 04:36:17 America/Chicago] PHP Warning:  Undefined array key "Past_paper" in /home1/educationve/public_html/backend/updatesectionupdate.php on line 13
+[03-May-2023 04:36:17 America/Chicago] PHP Warning:  Undefined array key "Midterm_paper" in /home1/educationve/public_html/backend/updatesectionupdate.php on line 14
+[03-May-2023 04:36:17 America/Chicago] PHP Warning:  Undefined array key "Final_paper" in /home1/educationve/public_html/backend/updatesectionupdate.php on line 15
+[03-May-2023 04:36:17 America/Chicago] PHP Warning:  Undefined array key "Quiz" in /home1/educationve/public_html/backend/updatesectionupdate.php on line 17
+[03-May-2023 04:36:17 America/Chicago] PHP Warning:  Undefined array key "T_assistant1" in /home1/educationve/public_html/backend/updatesectionupdate.php on line 27
+[03-May-2023 04:52:07 America/Chicago] PHP Warning:  Undefined array key "section_id" in /home1/educationve/public_html/backend/updatesectionupdate.php on line 8
+[03-May-2023 04:52:07 America/Chicago] PHP Warning:  Undefined array key "T_assistant1" in /home1/educationve/public_html/backend/updatesectionupdate.php on line 20
+[03-May-2023 04:52:41 America/Chicago] PHP Warning:  Undefined array key "section_id" in /home1/educationve/public_html/backend/updatesectionupdate.php on line 8
+[03-May-2023 04:52:41 America/Chicago] PHP Warning:  Undefined array key "T_assistant1" in /home1/educationve/public_html/backend/updatesectionupdate.php on line 20
+[03-May-2023 05:07:11 America/Chicago] PHP Warning:  Undefined array key "section_id" in /home1/educationve/public_html/backend/updatesectionupdate.php on line 8
+[03-May-2023 05:07:11 America/Chicago] PHP Warning:  Undefined array key "T_assistant1" in /home1/educationve/public_html/backend/updatesectionupdate.php on line 20
+[03-May-2023 05:09:19 America/Chicago] PHP Warning:  Undefined array key "section_id" in /home1/educationve/public_html/backend/updatesectionupdate.php on line 8
+[03-May-2023 05:09:19 America/Chicago] PHP Warning:  Undefined array key "T_assistant1" in /home1/educationve/public_html/backend/updatesectionupdate.php on line 20
+[03-May-2023 05:09:46 America/Chicago] PHP Warning:  Undefined array key "section_id" in /home1/educationve/public_html/backend/updatesectionupdate.php on line 8
+[03-May-2023 05:09:46 America/Chicago] PHP Warning:  Undefined array key "T_assistant1" in /home1/educationve/public_html/backend/updatesectionupdate.php on line 20
+[03-May-2023 05:10:11 America/Chicago] PHP Warning:  Undefined array key "T_assistant1" in /home1/educationve/public_html/backend/updatesectionupdate.php on line 20
+[03-May-2023 05:10:45 America/Chicago] PHP Warning:  Undefined array key "T_assistant1" in /home1/educationve/public_html/backend/updatesectionupdate.php on line 20
+[03-May-2023 05:10:45 America/Chicago] PHP Fatal error:  Uncaught mysqli_sql_exception: Cannot add or update a child row: a foreign key constraint fails (`educatio_verse`.`section`, CONSTRAINT `sectionsubjectid` FOREIGN KEY (`subject_id`) REFERENCES `subject` (`subject_id`) ON DELETE CASCADE ON UPDATE CASCADE) in /home1/educationve/public_html/backend/updatesectionupdate.php:42
+Stack trace:
+#0 /home1/educationve/public_html/backend/updatesectionupdate.php(42): mysqli->query('UPDATE `section...')
+#1 {main}
+  thrown in /home1/educationve/public_html/backend/updatesectionupdate.php on line 42
+[03-May-2023 05:10:56 America/Chicago] PHP Warning:  Undefined array key "T_assistant1" in /home1/educationve/public_html/backend/updatesectionupdate.php on line 20
+[03-May-2023 05:10:56 America/Chicago] PHP Fatal error:  Uncaught mysqli_sql_exception: Cannot add or update a child row: a foreign key constraint fails (`educatio_verse`.`section`, CONSTRAINT `sectionsubjectid` FOREIGN KEY (`subject_id`) REFERENCES `subject` (`subject_id`) ON DELETE CASCADE ON UPDATE CASCADE) in /home1/educationve/public_html/backend/updatesectionupdate.php:42
+Stack trace:
+#0 /home1/educationve/public_html/backend/updatesectionupdate.php(42): mysqli->query('UPDATE `section...')
+#1 {main}
+  thrown in /home1/educationve/public_html/backend/updatesectionupdate.php on line 42
+[03-May-2023 05:11:18 America/Chicago] PHP Warning:  Undefined array key "T_assistant1" in /home1/educationve/public_html/backend/updatesectionupdate.php on line 20
+[03-May-2023 05:11:18 America/Chicago] PHP Fatal error:  Uncaught mysqli_sql_exception: Cannot add or update a child row: a foreign key constraint fails (`educatio_verse`.`section`, CONSTRAINT `sectionsubjectid` FOREIGN KEY (`subject_id`) REFERENCES `subject` (`subject_id`) ON DELETE CASCADE ON UPDATE CASCADE) in /home1/educationve/public_html/backend/updatesectionupdate.php:42
+Stack trace:
+#0 /home1/educationve/public_html/backend/updatesectionupdate.php(42): mysqli->query('UPDATE `section...')
+#1 {main}
+  thrown in /home1/educationve/public_html/backend/updatesectionupdate.php on line 42
+[03-May-2023 05:19:59 America/Chicago] PHP Warning:  Undefined array key "T_assistant1" in /home1/educationve/public_html/backend/updatesectionupdate.php on line 20
+[03-May-2023 05:24:49 America/Chicago] PHP Warning:  Undefined array key "T_assistant1" in /home1/educationve/public_html/backend/updatesectionupdate.php on line 20
+[03-May-2023 05:26:59 America/Chicago] PHP Warning:  Undefined array key "T_assistant1" in /home1/educationve/public_html/backend/updatesectionupdate.php on line 20
+[03-May-2023 05:42:30 America/Chicago] PHP Warning:  Undefined array key "T_assistant1" in /home1/educationve/public_html/backend/updatesectionupdate.php on line 20
+[03-May-2023 05:42:30 America/Chicago] PHP Fatal error:  Uncaught mysqli_sql_exception: Cannot add or update a child row: a foreign key constraint fails (`educatio_verse`.`section`, CONSTRAINT `sectionsubjectid` FOREIGN KEY (`subject_id`) REFERENCES `subject` (`subject_id`) ON DELETE CASCADE ON UPDATE CASCADE) in /home1/educationve/public_html/backend/updatesectionupdate.php:42
+Stack trace:
+#0 /home1/educationve/public_html/backend/updatesectionupdate.php(42): mysqli->query('UPDATE `section...')
+#1 {main}
+  thrown in /home1/educationve/public_html/backend/updatesectionupdate.php on line 42
+[03-May-2023 05:43:15 America/Chicago] PHP Warning:  Undefined array key "T_assistant1" in /home1/educationve/public_html/backend/updatesectionupdate.php on line 20
+[03-May-2023 06:05:53 America/Chicago] PHP Warning:  Undefined array key "T_assistant1" in /home1/educationve/public_html/backend/updatesectionupdate.php on line 20
+[03-May-2023 06:38:51 America/Chicago] PHP Warning:  Undefined array key "T_assistant1" in /home1/educationve/public_html/backend/updatesectionupdate.php on line 20
+[03-May-2023 07:59:35 America/Chicago] PHP Warning:  Undefined array key "section_id" in /home1/educationve/public_html/backend/updatesectionupdate.php on line 8
+[03-May-2023 07:59:35 America/Chicago] PHP Warning:  Undefined array key "video_url" in /home1/educationve/public_html/backend/updatesectionupdate.php on line 10
+[03-May-2023 07:59:35 America/Chicago] PHP Warning:  Undefined array key "Start_Time" in /home1/educationve/public_html/backend/updatesectionupdate.php on line 11
+[03-May-2023 07:59:35 America/Chicago] PHP Warning:  Undefined array key "End_time" in /home1/educationve/public_html/backend/updatesectionupdate.php on line 12
+[03-May-2023 07:59:35 America/Chicago] PHP Warning:  Undefined array key "Monday" in /home1/educationve/public_html/backend/updatesectionupdate.php on line 13
+[03-May-2023 07:59:35 America/Chicago] PHP Warning:  Undefined array key "Tuesday" in /home1/educationve/public_html/backend/updatesectionupdate.php on line 14
+[03-May-2023 07:59:35 America/Chicago] PHP Warning:  Undefined array key "Wednesday" in /home1/educationve/public_html/backend/updatesectionupdate.php on line 15
+[03-May-2023 07:59:35 America/Chicago] PHP Warning:  Undefined array key "Thursday" in /home1/educationve/public_html/backend/updatesectionupdate.php on line 16
+[03-May-2023 07:59:35 America/Chicago] PHP Warning:  Undefined array key "Friday" in /home1/educationve/public_html/backend/updatesectionupdate.php on line 17
+[03-May-2023 07:59:35 America/Chicago] PHP Warning:  Undefined array key "Saturday" in /home1/educationve/public_html/backend/updatesectionupdate.php on line 18
+[03-May-2023 07:59:35 America/Chicago] PHP Warning:  Undefined array key "Sunday" in /home1/educationve/public_html/backend/updatesectionupdate.php on line 19
+[03-May-2023 07:59:35 America/Chicago] PHP Warning:  Undefined array key "T_assistant1" in /home1/educationve/public_html/backend/updatesectionupdate.php on line 20
+[03-May-2023 07:59:35 America/Chicago] PHP Warning:  Undefined array key "T_Assistant2" in /home1/educationve/public_html/backend/updatesectionupdate.php on line 21
+[04-May-2023 08:12:13 America/Chicago] PHP Warning:  Undefined array key "user_name" in /home1/educationve/public_html/backend/login.php on line 7
+[04-May-2023 08:12:13 America/Chicago] PHP Warning:  Undefined array key "user_password" in /home1/educationve/public_html/backend/login.php on line 8
+[04-May-2023 08:14:04 America/Chicago] PHP Warning:  Undefined array key "user_name" in /home1/educationve/public_html/backend/login.php on line 7
+[04-May-2023 08:14:04 America/Chicago] PHP Warning:  Undefined array key "user_password" in /home1/educationve/public_html/backend/login.php on line 8
+[04-May-2023 08:20:32 America/Chicago] PHP Fatal error:  Uncaught mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ''0120120120' at line 1 in /home1/educationve/public_html/backend/login.php:13
+Stack trace:
+#0 /home1/educationve/public_html/backend/login.php(13): mysqli_query(Object(mysqli), 'Select * from u...')
+#1 {main}
+  thrown in /home1/educationve/public_html/backend/login.php on line 13
+[04-May-2023 08:20:57 America/Chicago] PHP Fatal error:  Uncaught mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ''0120120120' at line 1 in /home1/educationve/public_html/backend/login.php:13
+Stack trace:
+#0 /home1/educationve/public_html/backend/login.php(13): mysqli_query(Object(mysqli), 'Select * from u...')
+#1 {main}
+  thrown in /home1/educationve/public_html/backend/login.php on line 13
+[04-May-2023 08:21:00 America/Chicago] PHP Fatal error:  Uncaught mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ''0120120120' at line 1 in /home1/educationve/public_html/backend/login.php:13
+Stack trace:
+#0 /home1/educationve/public_html/backend/login.php(13): mysqli_query(Object(mysqli), 'Select * from u...')
+#1 {main}
+  thrown in /home1/educationve/public_html/backend/login.php on line 13
+[04-May-2023 08:21:05 America/Chicago] PHP Fatal error:  Uncaught mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ''0120120120' at line 1 in /home1/educationve/public_html/backend/login.php:13
+Stack trace:
+#0 /home1/educationve/public_html/backend/login.php(13): mysqli_query(Object(mysqli), 'Select * from u...')
+#1 {main}
+  thrown in /home1/educationve/public_html/backend/login.php on line 13
+[04-May-2023 08:25:39 America/Chicago] PHP Fatal error:  Uncaught mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ''0120120120' at line 1 in /home1/educationve/public_html/backend/login.php:13
+Stack trace:
+#0 /home1/educationve/public_html/backend/login.php(13): mysqli_query(Object(mysqli), 'Select * from u...')
+#1 {main}
+  thrown in /home1/educationve/public_html/backend/login.php on line 13
+[04-May-2023 08:26:31 America/Chicago] PHP Fatal error:  Uncaught mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ''0120120120' at line 1 in /home1/educationve/public_html/backend/login.php:13
+Stack trace:
+#0 /home1/educationve/public_html/backend/login.php(13): mysqli_query(Object(mysqli), 'Select * from u...')
+#1 {main}
+  thrown in /home1/educationve/public_html/backend/login.php on line 13
+[04-May-2023 08:26:40 America/Chicago] PHP Fatal error:  Uncaught mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ''0120120120' at line 1 in /home1/educationve/public_html/backend/login.php:13
+Stack trace:
+#0 /home1/educationve/public_html/backend/login.php(13): mysqli_query(Object(mysqli), 'Select * from u...')
+#1 {main}
+  thrown in /home1/educationve/public_html/backend/login.php on line 13
+[04-May-2023 08:26:42 America/Chicago] PHP Fatal error:  Uncaught mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ''0120120120' at line 1 in /home1/educationve/public_html/backend/login.php:13
+Stack trace:
+#0 /home1/educationve/public_html/backend/login.php(13): mysqli_query(Object(mysqli), 'Select * from u...')
+#1 {main}
+  thrown in /home1/educationve/public_html/backend/login.php on line 13
+[05-May-2023 06:31:41 America/Chicago] PHP Warning:  Undefined array key "section_id" in /home1/educationve/public_html/backend/deletesection.php on line 5
+[05-May-2023 07:32:16 America/Chicago] PHP Warning:  Undefined array key "T_assistant1" in /home1/educationve/public_html/backend/updatesectionupdate.php on line 20
+[05-May-2023 07:34:04 America/Chicago] PHP Warning:  Undefined array key "T_assistant1" in /home1/educationve/public_html/backend/updatesectionupdate.php on line 20
+[05-May-2023 07:39:18 America/Chicago] PHP Fatal error:  Uncaught mysqli_sql_exception: Cannot add or update a child row: a foreign key constraint fails (`educatio_verse`.`Material`, CONSTRAINT `Section_material` FOREIGN KEY (`section_id`) REFERENCES `education_stream` (`stream_id`) ON DELETE CASCADE ON UPDATE CASCADE) in /home1/educationve/public_html/backend/add_material.php:22
+Stack trace:
+#0 /home1/educationve/public_html/backend/add_material.php(22): mysqli_query(Object(mysqli), 'INSERT INTO `Ma...')
+#1 {main}
+  thrown in /home1/educationve/public_html/backend/add_material.php on line 22
+[05-May-2023 07:39:36 America/Chicago] PHP Fatal error:  Uncaught mysqli_sql_exception: Cannot add or update a child row: a foreign key constraint fails (`educatio_verse`.`Material`, CONSTRAINT `Section_material` FOREIGN KEY (`section_id`) REFERENCES `education_stream` (`stream_id`) ON DELETE CASCADE ON UPDATE CASCADE) in /home1/educationve/public_html/backend/add_material.php:22
+Stack trace:
+#0 /home1/educationve/public_html/backend/add_material.php(22): mysqli_query(Object(mysqli), 'INSERT INTO `Ma...')
+#1 {main}
+  thrown in /home1/educationve/public_html/backend/add_material.php on line 22
+[05-May-2023 07:39:58 America/Chicago] PHP Fatal error:  Uncaught mysqli_sql_exception: Cannot add or update a child row: a foreign key constraint fails (`educatio_verse`.`Material`, CONSTRAINT `Section_material` FOREIGN KEY (`section_id`) REFERENCES `education_stream` (`stream_id`) ON DELETE CASCADE ON UPDATE CASCADE) in /home1/educationve/public_html/backend/add_material.php:22
+Stack trace:
+#0 /home1/educationve/public_html/backend/add_material.php(22): mysqli_query(Object(mysqli), 'INSERT INTO `Ma...')
+#1 {main}
+  thrown in /home1/educationve/public_html/backend/add_material.php on line 22
+[05-May-2023 07:41:28 America/Chicago] PHP Fatal error:  Uncaught mysqli_sql_exception: Cannot add or update a child row: a foreign key constraint fails (`educatio_verse`.`Material`, CONSTRAINT `Section_material` FOREIGN KEY (`section_id`) REFERENCES `education_stream` (`stream_id`) ON DELETE CASCADE ON UPDATE CASCADE) in /home1/educationve/public_html/backend/add_material.php:22
+Stack trace:
+#0 /home1/educationve/public_html/backend/add_material.php(22): mysqli_query(Object(mysqli), 'INSERT INTO `Ma...')
+#1 {main}
+  thrown in /home1/educationve/public_html/backend/add_material.php on line 22
+[05-May-2023 07:42:03 America/Chicago] PHP Fatal error:  Uncaught mysqli_sql_exception: Cannot add or update a child row: a foreign key constraint fails (`educatio_verse`.`Material`, CONSTRAINT `Section_material` FOREIGN KEY (`section_id`) REFERENCES `education_stream` (`stream_id`) ON DELETE CASCADE ON UPDATE CASCADE) in /home1/educationve/public_html/backend/add_material.php:22
+Stack trace:
+#0 /home1/educationve/public_html/backend/add_material.php(22): mysqli_query(Object(mysqli), 'INSERT INTO `Ma...')
+#1 {main}
+  thrown in /home1/educationve/public_html/backend/add_material.php on line 22
+[05-May-2023 07:42:27 America/Chicago] PHP Fatal error:  Uncaught mysqli_sql_exception: Cannot add or update a child row: a foreign key constraint fails (`educatio_verse`.`Material`, CONSTRAINT `Section_material` FOREIGN KEY (`section_id`) REFERENCES `education_stream` (`stream_id`) ON DELETE CASCADE ON UPDATE CASCADE) in /home1/educationve/public_html/backend/add_material.php:22
+Stack trace:
+#0 /home1/educationve/public_html/backend/add_material.php(22): mysqli_query(Object(mysqli), 'INSERT INTO `Ma...')
+#1 {main}
+  thrown in /home1/educationve/public_html/backend/add_material.php on line 22
+[05-May-2023 07:44:00 America/Chicago] PHP Fatal error:  Uncaught mysqli_sql_exception: Cannot add or update a child row: a foreign key constraint fails (`educatio_verse`.`Material`, CONSTRAINT `Section_material` FOREIGN KEY (`section_id`) REFERENCES `education_stream` (`stream_id`) ON DELETE CASCADE ON UPDATE CASCADE) in /home1/educationve/public_html/backend/add_material.php:22
+Stack trace:
+#0 /home1/educationve/public_html/backend/add_material.php(22): mysqli_query(Object(mysqli), 'INSERT INTO `Ma...')
+#1 {main}
+  thrown in /home1/educationve/public_html/backend/add_material.php on line 22
+[05-May-2023 07:44:55 America/Chicago] PHP Fatal error:  Uncaught mysqli_sql_exception: Cannot add or update a child row: a foreign key constraint fails (`educatio_verse`.`Material`, CONSTRAINT `Section_material` FOREIGN KEY (`section_id`) REFERENCES `education_stream` (`stream_id`) ON DELETE CASCADE ON UPDATE CASCADE) in /home1/educationve/public_html/backend/add_material.php:22
+Stack trace:
+#0 /home1/educationve/public_html/backend/add_material.php(22): mysqli_query(Object(mysqli), 'INSERT INTO `Ma...')
+#1 {main}
+  thrown in /home1/educationve/public_html/backend/add_material.php on line 22
+[05-May-2023 07:45:09 America/Chicago] PHP Fatal error:  Uncaught mysqli_sql_exception: Cannot add or update a child row: a foreign key constraint fails (`educatio_verse`.`Material`, CONSTRAINT `Section_material` FOREIGN KEY (`section_id`) REFERENCES `education_stream` (`stream_id`) ON DELETE CASCADE ON UPDATE CASCADE) in /home1/educationve/public_html/backend/add_material.php:22
+Stack trace:
+#0 /home1/educationve/public_html/backend/add_material.php(22): mysqli_query(Object(mysqli), 'INSERT INTO `Ma...')
+#1 {main}
+  thrown in /home1/educationve/public_html/backend/add_material.php on line 22

@@ -1,13 +1,13 @@
 <?php
+ob_start(); 
 session_start();
 include 'config.php';
-if(isset($_POST['delete']))
-{	 
-     $Section_id = $_GET['section_id'];
+	 
+     $Section_id = $_GET['sid'];
 
 	 
 	 $sql = "DELETE FROM `section`  WHERE section_id   = '$Section_id'";
-	
+
 if ($conn->query($sql) === TRUE) {
   
   	$_SESSION['deletesection_success'] = 'Record delete successfully !';
@@ -17,8 +17,5 @@ if ($conn->query($sql) === TRUE) {
 			header("Location: ../frontend/section.php");
 }
 
-$conn->close();
-	
-	
-}
+
 ?>
